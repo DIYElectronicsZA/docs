@@ -1,0 +1,304 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "DIYelectronics\n\n\nWanhao\n\n\nAnycubic\n\n\nTevo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuild guide\n\n\nWanhao i3\n\n\ni3 Mega\n\n\nTarantula Prusa i3\n\n\n\n\n\n\nPrusa i3 Build Documentation\n\n\nDuplicator i3 Plus\n\n\nKossel Delta\n\n\nBlack Widow\n\n\n\n\n\n\n\n\nDuplicator 6\n\n\nKossel Delta Plus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRAMPS Guide\n\n\n2WD Arduino car\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRAMPS programming guide\n\n\n2WD robot build guide", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/builddoc/", 
+            "text": "Navigation Guide to our I3 build docs\n\n\nFirst step to your 3D printer is the mechanical assembly and CharlStruder assembly.\nIf you have the auto-bed-leveling upgrade you will also need to look at The Auto bed leveling manual.\nLastly install your electronics and software.\n\n\nNote\n:\n\n\n\n\n\n\nYour electronics come tested and configured with the correct firmware and there\nis NO need to flash your Arduino yourself.\n\n\n\n\n\n\nWhen heating your hotend for the first time tighten all parts due to heat-expansion.\n\n\n\n\n\n\nFor printing ABS get some acetone and decant into a glass jar, say 3cm or so.\nCut 50cm of abs filament into pieces and add to acetone. Mix until dissolved.\nPaint this on the heat bed before heating when preparing to print. Also purchase\na paint scraper and sharpen the edge. When removing prints use this and a\nsmall hammer to prise print off the bed.\n\n\n\n\n\n\nBuild Documentation\n\n\n\n\nI3 Mechanical assembly guide\n\n\nCharlStruder assembly guide\n\n\nI3 Electronics and Software guide\n\n\nI3 Auto-leveling manual", 
+            "title": "Prusa i3"
+        }, 
+        {
+            "location": "/builddoc/#navigation-guide-to-our-i3-build-docs", 
+            "text": "First step to your 3D printer is the mechanical assembly and CharlStruder assembly.\nIf you have the auto-bed-leveling upgrade you will also need to look at The Auto bed leveling manual.\nLastly install your electronics and software.  Note :    Your electronics come tested and configured with the correct firmware and there\nis NO need to flash your Arduino yourself.    When heating your hotend for the first time tighten all parts due to heat-expansion.    For printing ABS get some acetone and decant into a glass jar, say 3cm or so.\nCut 50cm of abs filament into pieces and add to acetone. Mix until dissolved.\nPaint this on the heat bed before heating when preparing to print. Also purchase\na paint scraper and sharpen the edge. When removing prints use this and a\nsmall hammer to prise print off the bed.", 
+            "title": "Navigation Guide to our I3 build docs"
+        }, 
+        {
+            "location": "/builddoc/#build-documentation", 
+            "text": "I3 Mechanical assembly guide  CharlStruder assembly guide  I3 Electronics and Software guide  I3 Auto-leveling manual", 
+            "title": "Build Documentation"
+        }, 
+        {
+            "location": "/builddocplus/", 
+            "text": "User Manual\n\n\n\n\nI3 plus Wanhao User manual", 
+            "title": "Wanhao i3 Plus"
+        }, 
+        {
+            "location": "/builddocplus/#user-manual", 
+            "text": "I3 plus Wanhao User manual", 
+            "title": "User Manual"
+        }, 
+        {
+            "location": "/Duplicatori3plus/", 
+            "text": "", 
+            "title": "Wanhao Duplicator i3 Plus"
+        }, 
+        {
+            "location": "/WanDup6/", 
+            "text": "User guide\n\n\nWanhao Duplicator 6 user manual", 
+            "title": "Wanhao Duplicator 6"
+        }, 
+        {
+            "location": "/WanDup6/#user-guide", 
+            "text": "Wanhao Duplicator 6 user manual", 
+            "title": "User guide"
+        }, 
+        {
+            "location": "/wanD7/", 
+            "text": "Wanhao D7 user manual\n\n\nD7 user guide", 
+            "title": "Wanhao Duplicator 7"
+        }, 
+        {
+            "location": "/wanD7/#wanhao-d7-user-manual", 
+            "text": "D7 user guide", 
+            "title": "Wanhao D7 user manual"
+        }, 
+        {
+            "location": "/AncubicI3Mega/", 
+            "text": "User guide\n\n\n\n\nTevo Tarantula: Hot End", 
+            "title": "Anycubic i3 Mega"
+        }, 
+        {
+            "location": "/AncubicI3Mega/#user-guide", 
+            "text": "", 
+            "title": "User guide"
+        }, 
+        {
+            "location": "/AncubicI3Mega/#tevo-tarantula-hot-end", 
+            "text": "", 
+            "title": "Tevo Tarantula: Hot End"
+        }, 
+        {
+            "location": "/AnyycubicKossDelt/", 
+            "text": "", 
+            "title": "Anycubic Kossel Delta"
+        }, 
+        {
+            "location": "/AnycubicKossplus/", 
+            "text": "", 
+            "title": "Anycubic Kossel Delta Plus"
+        }, 
+        {
+            "location": "/TevTranPrusi3/", 
+            "text": "User guide\n\n\nTevo Tarantula: Axis Mount\n\n\n\n\nTevo Tarantula: Hot End\n\n\n\n\nTevo Trantula: Z Axis Left Side\n\n\n\n\nTevo Tarantula: Z Axis Right Side\n\n\n\n\nTevo Tarantula: The Bed\n\n\n\n\nTevo Tarantula: The Frame\n\n\n\n\nTevo Tarantula: Front Y Pulley\n\n\n\n\nTevo Tarantula: Y Motor Mount\n\n\n\n\nTevo Tarantula: Mounting X/Z Axis Rail\n\n\n\n\nTevo Tarantula: Top Rail, Squaring it up\n\n\n\n\nTevo Tarantula: Z Rod and Motor\n\n\n\n\nTevo Tarantula: X Axis Belt\n\n\n\n\nTevo Tarantula: Y Axis Belt, Bed Mount\n\n\n\n\nTevo Tarantula: Extruder\n\n\n\n\nTevo Tarantula: Wiring the Power Supply\n\n\n\n\nTevo Tarantula: PCB Mount\n\n\n\n\nTevo Tarantula: Wiring Part 1\n\n\n\n\nTevo Tarantula: Wiring Part 2\n\n\n\n\nTevo Tarantula: End Stops\n\n\n\n\nTevo Tarantula: LCD Aseembly\n\n\n\n\nTevo Tarantula: Manual Bed Level\n\n\n\n\nTevo Tarantula: Loading Filament\n\n\n\n\nTevo Tarantula: First Print", 
+            "title": "Tevo Tarantula Prusa i3"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#user-guide", 
+            "text": "", 
+            "title": "User guide"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-axis-mount", 
+            "text": "", 
+            "title": "Tevo Tarantula: Axis Mount"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-hot-end", 
+            "text": "", 
+            "title": "Tevo Tarantula: Hot End"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-trantula-z-axis-left-side", 
+            "text": "", 
+            "title": "Tevo Trantula: Z Axis Left Side"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-z-axis-right-side", 
+            "text": "", 
+            "title": "Tevo Tarantula: Z Axis Right Side"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-the-bed", 
+            "text": "", 
+            "title": "Tevo Tarantula: The Bed"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-the-frame", 
+            "text": "", 
+            "title": "Tevo Tarantula: The Frame"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-front-y-pulley", 
+            "text": "", 
+            "title": "Tevo Tarantula: Front Y Pulley"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-y-motor-mount", 
+            "text": "", 
+            "title": "Tevo Tarantula: Y Motor Mount"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-mounting-xz-axis-rail", 
+            "text": "", 
+            "title": "Tevo Tarantula: Mounting X/Z Axis Rail"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-top-rail-squaring-it-up", 
+            "text": "", 
+            "title": "Tevo Tarantula: Top Rail, Squaring it up"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-z-rod-and-motor", 
+            "text": "", 
+            "title": "Tevo Tarantula: Z Rod and Motor"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-x-axis-belt", 
+            "text": "", 
+            "title": "Tevo Tarantula: X Axis Belt"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-y-axis-belt-bed-mount", 
+            "text": "", 
+            "title": "Tevo Tarantula: Y Axis Belt, Bed Mount"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-extruder", 
+            "text": "", 
+            "title": "Tevo Tarantula: Extruder"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-wiring-the-power-supply", 
+            "text": "", 
+            "title": "Tevo Tarantula: Wiring the Power Supply"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-pcb-mount", 
+            "text": "", 
+            "title": "Tevo Tarantula: PCB Mount"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-wiring-part-1", 
+            "text": "", 
+            "title": "Tevo Tarantula: Wiring Part 1"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-wiring-part-2", 
+            "text": "", 
+            "title": "Tevo Tarantula: Wiring Part 2"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-end-stops", 
+            "text": "", 
+            "title": "Tevo Tarantula: End Stops"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-lcd-aseembly", 
+            "text": "", 
+            "title": "Tevo Tarantula: LCD Aseembly"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-manual-bed-level", 
+            "text": "", 
+            "title": "Tevo Tarantula: Manual Bed Level"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-loading-filament", 
+            "text": "", 
+            "title": "Tevo Tarantula: Loading Filament"
+        }, 
+        {
+            "location": "/TevTranPrusi3/#tevo-tarantula-first-print", 
+            "text": "", 
+            "title": "Tevo Tarantula: First Print"
+        }, 
+        {
+            "location": "/TevBlkWid/", 
+            "text": "User guide\n\n\nTevo Black Widow user manual", 
+            "title": "Tevo Black Widow"
+        }, 
+        {
+            "location": "/TevBlkWid/#user-guide", 
+            "text": "Tevo Black Widow user manual", 
+            "title": "User guide"
+        }, 
+        {
+            "location": "/lilmon/", 
+            "text": "Little Monster build guide\n\n\nLittle Monster guide", 
+            "title": "Tevo Little Monster"
+        }, 
+        {
+            "location": "/lilmon/#little-monster-build-guide", 
+            "text": "Little Monster guide", 
+            "title": "Little Monster build guide"
+        }, 
+        {
+            "location": "/Ardstart/", 
+            "text": "Arduino Getting Started Links\n\n\n\n\nBasic references are provided by the Arduino foundation: (https://www.arduino.cc/)[https://www.arduino.cc/]\n\n\nProgramming references: \nhttps://www.arduino.cc/en/Reference/HomePage\n\n\nGetting started: \nhttps://www.arduino.cc/en/Guide/HomePage\n\n\nProgram examples: \nhttp://playground.arduino.cc/", 
+            "title": "Getting started with Arduino"
+        }, 
+        {
+            "location": "/Ardstart/#arduino-getting-started-links", 
+            "text": "Basic references are provided by the Arduino foundation: (https://www.arduino.cc/)[https://www.arduino.cc/]  Programming references:  https://www.arduino.cc/en/Reference/HomePage  Getting started:  https://www.arduino.cc/en/Guide/HomePage  Program examples:  http://playground.arduino.cc/", 
+            "title": "Arduino Getting Started Links"
+        }, 
+        {
+            "location": "/RAMPSPG/", 
+            "text": "RAMPS programming guide\n\n\nRAMPS programming guide", 
+            "title": "RAMPS Programming Guide"
+        }, 
+        {
+            "location": "/RAMPSPG/#ramps-programming-guide", 
+            "text": "RAMPS programming guide", 
+            "title": "RAMPS programming guide"
+        }, 
+        {
+            "location": "/robotcarkit/", 
+            "text": "Build guide to basic Arduino 2WD robot car\n\n\n2WD robot build guide", 
+            "title": "Arduino 2WD robot car"
+        }, 
+        {
+            "location": "/robotcarkit/#build-guide-to-basic-arduino-2wd-robot-car", 
+            "text": "2WD robot build guide", 
+            "title": "Build guide to basic Arduino 2WD robot car"
+        }, 
+        {
+            "location": "/FAQ/", 
+            "text": "X / Y / Z / Extruder Axis Runs in Reverse\n\n\nThe motor axis is reversed, the easiest way to solve this issue is (with everything powered down) to flip the motor plug on the RAMPS board 180 degrees. This will reverse the axis in question:\n\n\n\nEndstops Do Not Work Correctly\n\n\nFirst make sure the axis are all moving in the correct direction. \nNext in Repetier Host send the M119 command in the G-Code command line.\n\n\nNote the response in the text log: \n\n\nWhen the endstops are not pressed they should read as Open\nYou can hold an endstop down and then send M119, it should then read Triggered if it is working properly. If you do not have this response then check that the endstop is plugged into the correct port and that the wiring is not damaged. \nIgnore the Max endstops, we only use the Min endstops. \nAlso check that the X endstop relates to x_min and the same for Y and Z with the M119 command. If not then they are connected to the wrong locations.\n\n\nOne of the Axis Does Not Work\n\n\nThe first thing to try is (with the power off) swap one of the working axis stepper motor drivers with the driver on the axis that doesn't work. Test again, then we will know if the driver is faulty or if there is a different problem.\n\n\nRough Layers in Prints\n\n\nThe attached picture shows how A , C and D layers are very rough and layers \nB are smooth. This seems to occur at the same levels in each of the models \nwe printed.\nSome are worse than others.\n\n\n\n\nSolution:\nGenerally this problem is a function of three variables: \nTemperature too high, try reduce 5 - 10 'C\nFlow rate too high, try reduce 5 - 10% or check that extruder calibration is spot on\nPrint speed is too high, slow down the print a little. \nTry tweak one of those variables at a time and see if you can get it printing smoothly.\nOver and above those factors some filaments can be more prone to this problem than others, try printing in a different colour and see if it helps. \nFinally one of the biggest causes of this problem is related to the nozzle size, slicer and slicer settings. You may see an improvement by using a better slicer like Simplify 3D, using a smaller nozzle size, changing your layer size and adjusting the extrusion width over height factor. The layer height can also play a roll. \n\n\nEssentially it is a case of fine tuning, but once you get it right the prints will come out perfect. \n\n\nPrusa i3 Cable Management\n\n\nCable management on your Prusa i3 kit, or any 3D printer kit, is very important in order to prevent failed prints and other cable related issues. The following guide is intended to assist with cable management on your printer. \n\n\nOn the extruder, gather all cables together just above the X-carriage. Small cable-ties are useful here.\n\n\n\nBring the cables through the frame and down towards the RAMPS board top left corner.\n\n\n\nSecure the extruder wiring to the top left RAMPS mounting screw with a small cable-tie.\n\n\n\nBring the extruder wiring bundle down to the lower left RAMPS mount and secure. Trim the red hot-end heater cable to length and insert into heater screw terminals. Bunch excess thermistor and stepper motor cable under the Arduino board. Connect Thermistor, Extruder Stepper, Hot-End Fan and (optional) Auto-Level Sensor Cables to the RAMPS board and reinstall the RAMPS fan. \n\n\n\nHow to adjust first layer using \"Marlin Baby Stepping\"\n\n\n\n\nStart print \n\n\nUnder \"tune\" in the main menu select \"Babystepping Z\"\n\n\nTurn the dial anti-clockwise to lower the nozzle closer to the print surface \n\n\nYou will have achieved the ideal nozzle position for your first layer once the filament is being lightly squashed against the print surface creating an even bead of extrusion.\n\n\n\n\nThe Heated Bed Struggles to Reach 100'C or More\n\n\nThat's quite normal, we suggest printing ABS at 80-90'C bed temp, we find that is ideal with our aluminium build plate and ABS / Acetone solution. \n\n\nAdditionally it is possible to get to 110'C if you insulate the bottom of the bed. Using an enclosure helps too. \nWe find this is a bit hot for printing directly to the aluminium bed with ABS, rather this bed temp is suitable for print surfaces such as PEI. \n\n\nEditing your G-Code / Start / End G-Code etc\n\n\nG-Code is the language that is used by your printer electronics to control the printer. The slicing program / toolchain such as Slic3r or Simplify3D generates this G-Code automatically and saves it to a text based .gcode file that is then sent to your 3D printer either over a serial connection, SD card or network. \n\n\nCheck out the following link for some tips on setting up the some of the configurable sections of the G-Code generation in order to fine tune your 3D printers operation: \nhttp://wiki.solidoodle.com/setting-and-editing-your-gcode", 
+            "title": "Printer FAQ"
+        }, 
+        {
+            "location": "/FAQ/#x-y-z-extruder-axis-runs-in-reverse", 
+            "text": "The motor axis is reversed, the easiest way to solve this issue is (with everything powered down) to flip the motor plug on the RAMPS board 180 degrees. This will reverse the axis in question:", 
+            "title": "X / Y / Z / Extruder Axis Runs in Reverse"
+        }, 
+        {
+            "location": "/FAQ/#endstops-do-not-work-correctly", 
+            "text": "First make sure the axis are all moving in the correct direction. \nNext in Repetier Host send the M119 command in the G-Code command line. \nNote the response in the text log:  \nWhen the endstops are not pressed they should read as Open\nYou can hold an endstop down and then send M119, it should then read Triggered if it is working properly. If you do not have this response then check that the endstop is plugged into the correct port and that the wiring is not damaged. \nIgnore the Max endstops, we only use the Min endstops. \nAlso check that the X endstop relates to x_min and the same for Y and Z with the M119 command. If not then they are connected to the wrong locations.", 
+            "title": "Endstops Do Not Work Correctly"
+        }, 
+        {
+            "location": "/FAQ/#one-of-the-axis-does-not-work", 
+            "text": "The first thing to try is (with the power off) swap one of the working axis stepper motor drivers with the driver on the axis that doesn't work. Test again, then we will know if the driver is faulty or if there is a different problem.", 
+            "title": "One of the Axis Does Not Work"
+        }, 
+        {
+            "location": "/FAQ/#rough-layers-in-prints", 
+            "text": "The attached picture shows how A , C and D layers are very rough and layers \nB are smooth. This seems to occur at the same levels in each of the models \nwe printed.\nSome are worse than others.   Solution:\nGenerally this problem is a function of three variables: \nTemperature too high, try reduce 5 - 10 'C\nFlow rate too high, try reduce 5 - 10% or check that extruder calibration is spot on\nPrint speed is too high, slow down the print a little. \nTry tweak one of those variables at a time and see if you can get it printing smoothly.\nOver and above those factors some filaments can be more prone to this problem than others, try printing in a different colour and see if it helps. \nFinally one of the biggest causes of this problem is related to the nozzle size, slicer and slicer settings. You may see an improvement by using a better slicer like Simplify 3D, using a smaller nozzle size, changing your layer size and adjusting the extrusion width over height factor. The layer height can also play a roll.   Essentially it is a case of fine tuning, but once you get it right the prints will come out perfect.", 
+            "title": "Rough Layers in Prints"
+        }, 
+        {
+            "location": "/FAQ/#prusa-i3-cable-management", 
+            "text": "Cable management on your Prusa i3 kit, or any 3D printer kit, is very important in order to prevent failed prints and other cable related issues. The following guide is intended to assist with cable management on your printer.   On the extruder, gather all cables together just above the X-carriage. Small cable-ties are useful here.  \nBring the cables through the frame and down towards the RAMPS board top left corner.  Secure the extruder wiring to the top left RAMPS mounting screw with a small cable-tie.  Bring the extruder wiring bundle down to the lower left RAMPS mount and secure. Trim the red hot-end heater cable to length and insert into heater screw terminals. Bunch excess thermistor and stepper motor cable under the Arduino board. Connect Thermistor, Extruder Stepper, Hot-End Fan and (optional) Auto-Level Sensor Cables to the RAMPS board and reinstall the RAMPS fan.", 
+            "title": "Prusa i3 Cable Management"
+        }, 
+        {
+            "location": "/FAQ/#how-to-adjust-first-layer-using-marlin-baby-stepping", 
+            "text": "Start print   Under \"tune\" in the main menu select \"Babystepping Z\"  Turn the dial anti-clockwise to lower the nozzle closer to the print surface   You will have achieved the ideal nozzle position for your first layer once the filament is being lightly squashed against the print surface creating an even bead of extrusion.", 
+            "title": "How to adjust first layer using \"Marlin Baby Stepping\""
+        }, 
+        {
+            "location": "/FAQ/#the-heated-bed-struggles-to-reach-100c-or-more", 
+            "text": "That's quite normal, we suggest printing ABS at 80-90'C bed temp, we find that is ideal with our aluminium build plate and ABS / Acetone solution.   Additionally it is possible to get to 110'C if you insulate the bottom of the bed. Using an enclosure helps too. \nWe find this is a bit hot for printing directly to the aluminium bed with ABS, rather this bed temp is suitable for print surfaces such as PEI.", 
+            "title": "The Heated Bed Struggles to Reach 100'C or More"
+        }, 
+        {
+            "location": "/FAQ/#editing-your-g-code-start-end-g-code-etc", 
+            "text": "G-Code is the language that is used by your printer electronics to control the printer. The slicing program / toolchain such as Slic3r or Simplify3D generates this G-Code automatically and saves it to a text based .gcode file that is then sent to your 3D printer either over a serial connection, SD card or network.   Check out the following link for some tips on setting up the some of the configurable sections of the G-Code generation in order to fine tune your 3D printers operation: \nhttp://wiki.solidoodle.com/setting-and-editing-your-gcode", 
+            "title": "Editing your G-Code / Start / End G-Code etc"
+        }
+    ]
+}

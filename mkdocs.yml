@@ -1,0 +1,37 @@
+site_name: Wiki
+pages:
+    - Home: index.md
+    - 3D Printers:
+        - DIY 3D Printers:
+            - Prusa i3: builddoc.md
+        - Wanhao 3D Printers:
+            - Wanhao i3 Plus: builddocplus.md
+            - Wanhao Duplicator i3 Plus: Duplicatori3plus.md
+            - Wanhao Duplicator 6: WanDup6.md
+            - Wanhao Duplicator 7: wanD7.md
+        - Anycubic 3D Printers:
+            - Anycubic i3 Mega: AncubicI3Mega.md
+            - Anycubic Kossel Delta: AnyycubicKossDelt.md
+            - Anycubic Kossel Delta Plus: AnycubicKossplus.md
+        - Tevo 3D printers:
+            - Tevo Tarantula Prusa i3:
+                - About: TevoTran.md
+                - Build guide: TevTranPrusi3BuildGuide.md 
+            - Tevo Black Widow: 
+                - Build guide: TevBlkWid.md
+            - Tevo Little Monster: 
+                - Build guide: lilmon.md
+            
+    - Arduino:
+        - Getting started with Arduino: Ardstart.md
+        - RAMPS Programming Guide: RAMPSPG.md
+        - Arduino 2WD robot car: robotcarkit.md
+    - FAQ: 
+        - Printer FAQ: FAQ.md
+    
+theme: windmill
+extra_css: [extra.css]
+extra_javascript: [extra.js]
+extra: 
+    logo: img/diylogo.JPG
+    
