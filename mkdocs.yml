@@ -12,26 +12,23 @@ pages:
         - Anycubic 3D Printers:
             - Anycubic i3 Mega: AncubicI3Mega.md
             - Anycubic Kossel Delta: AnyycubicKossDelt.md
-            - Anycubic Kossel Delta Plus: AnycubicKossplus.md
         - Tevo 3D printers:
-            - Tevo Tarantula Prusa i3:
-                - About: TevoTran.md
-                - Build guide: TevTranPrusi3BuildGuide.md 
-            - Tevo Black Widow: 
-                - Build guide: TevBlkWid.md
-            - Tevo Little Monster: 
-                - Build guide: lilmon.md
-            
+            - Tevo Tarantula Prusa i3: TevoTran.md
+            - Tevo Black Widow: TevBlkWid.md
+            - Tevo Little Monster: lilmon.md
+        - Creality 3D printers:
+            - Creality CR10: crealityCR10.md
+            - Creality CR10s: Creality10S.md
+        - Printer Comparisson: PrinterCompare.md    
     - Arduino:
         - Getting started with Arduino: Ardstart.md
         - RAMPS Programming Guide: RAMPSPG.md
         - Arduino 2WD robot car: robotcarkit.md
-    - FAQ: 
-        - Printer FAQ: FAQ.md
+    - FAQ: FAQ.md
     
 theme: windmill
 extra_css: [extra.css]
 extra_javascript: [extra.js]
 extra: 
-    logo: img/diylogo.JPG
+    logo: img/diylogo.jpg
     

@@ -13,7 +13,7 @@ body {
  ***********************************************************************/
 
 .navbar {
-  background-color: #161616;
+  background-color: #333333;
   box-shadow: 0 1.5px 3px rgba(0,0,0,.24), 0 3px 8px rgba(0,0,0,.05);
   border: none;
   border-radius: 0px;
@@ -77,7 +77,7 @@ body {
 }
 
 .wm-top-version {
-  border: 1px solid #ddd;
+  border: 1px solid #333333;
   border-radius: 3px;
   padding: 0px 5px;
   color: #ddd;
@@ -94,7 +94,7 @@ body {
   right: 0px;
   padding: inherit;
   width: 100%;
-  background-color: #546e7a;
+  background-color: #52B848;
 }
 
 .wm-top-search {
@@ -117,8 +117,8 @@ body {
   height: 100%;
   width: 250px;
   z-index: 1;
-  background-color: #51B848;
-  border-right: 1px solid #e0e0e0;
+  background-color: #52B848;
+  border-right: 2px solid #333333;
   overflow: auto;
   margin-left: 0px;
   padding-left: 1rem;
@@ -227,17 +227,18 @@ body {
 }
 
 .wm-toctree a, .wm-toctree a:visited, .wm-toctree a:hover, .wm-toctree a:focus {
-  color: #161616;
+  color: #FFF;
   text-decoration: bold;
   outline: none;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .wm-toc-text {
   display: block;
   padding: 4px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 19px;
+  color: #FFF; 
 }
 .wm-toc-lev1 > .wm-toc-text { padding-left: 14px; }
 
@@ -268,16 +269,16 @@ body {
 }
 
 .wm-toc-li.wm-current, .wm-toc-li.wm-current:hover {
-  background-color: #d3d3d3;
+  background-color: #333333;
   color: white;
 }
 
 .wm-toc-li:hover {
-  background-color: #e0e0e0;
+  background-color: #52B848;
 }
 
 .wm-toc-li.wm-current a {
-  color: #161616;
+  color: #FFF;
   font-weight:bold;
   font-size: 1.3rem;
 }
@@ -323,11 +324,11 @@ body {
 .btn-default:focus, .btn-default.focus {
   color: #333;
   background-color: #fff;
-  border-color: #161616;
+  border-color: #52B848;
 }
 
 .btn-default.greybtn {
-  color: #888;
+  color: #52B848;
 }
 
 .wm-article-nav-buttons {
@@ -339,7 +340,7 @@ body {
   display: inline-block;
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #d3d3d3;
+  background-color: #333333;
   border: 1px solid #ddd;
   border-radius: 4px;
   margin: 20px auto 30px auto;
@@ -353,7 +354,7 @@ body {
   display: inline-block;
   max-width: 48%;
   white-space: nowrap;
-  color: #51B848;
+  color: #52B848;
   text-align: right;
 }
 
@@ -366,7 +367,7 @@ body {
 }
 
 .wm-article-nav > a, .wm-article-nav > a:visited, .wm-article-nav > a:hover, .wm-article-nav > a:focus {
-  color: #161616;
+  color: #333333;
   text-decoration: none;
   outline: none;
 }
@@ -404,7 +405,7 @@ body {
 }
 
 .search-text > b {
-  color: #000;
+  color: #d3d3d3;
 }
 
 .wm-search-page {

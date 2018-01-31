@@ -1,3 +1,7 @@
+|||
+|-|-|
+|![](img/diyprusai3.jpg)|![](img/diyprusai3_1.jpg)|
+
 #Navigation Guide to our I3 build docs
 
 First step to your 3D printer is the mechanical assembly and CharlStruder assembly.
@@ -17,6 +21,25 @@ Cut 50cm of abs filament into pieces and add to acetone. Mix until dissolved.
 Paint this on the heat bed before heating when preparing to print. Also purchase
 a paint scraper and sharpen the edge. When removing prints use this and a
 small hammer to prise print off the bed.
+
+##Specifications
+
+|Specs|Value
+|-|-|
+|Nozzle Diameter| 0.4/0.5mm  
+|Filament Diameter| 0.175mm    
+|Hot Bed Temperature|   
+|System|   
+|Power Supply| 240W  
+|Print Speed|  
+|Layer Thickness| 0.1-0.4mm    
+|Color Print Speed| s   
+|SD-Card Support| yes  
+|Max. Resolution|    
+|Printing Software| Cura   
+|Z Axis Positioning Accuracy|     
+|XY Axis Positioning Accuracy|   
+|Language| English   
 
 #Build Documentation
 
