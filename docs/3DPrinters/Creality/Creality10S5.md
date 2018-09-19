@@ -10,16 +10,17 @@ Based on the CR-10 the CR-10S5 comes with a print volume of 500x500x500mm. This 
 |Specs|Value
 |-|-|
 |Nozzle Diameter| 0.4mm  
+|Nozzle Type| MK8
+|Print area| 500 x 500 x 500 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 80mm/s 
+|Layer Thickness| 50-350 μm      
 |Filament Diameter| 1.75mm
-|Print area| 500 x 500 x500mm 
-|Hot Bed Temperature| 110°C
-|Hot End Temperature| 360°C  
-|System| Windows, Linux, Mac  
-|Power Supply| 360W
-|Print Speed| Normal: 50mm/s - Max: 80mm/s 
-|Layer Thickness| 50-350μm    
-|SD-Card Support| yes  
-|Extruder Style| Extruder 
+|Extruder Style| Bowden 
+|Power Supply| 12V 360W
+|Printer Footprint| 813 x 1030 x 712 mm
 
 # User Guide
 

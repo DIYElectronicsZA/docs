@@ -10,16 +10,17 @@ The Creality Ender series is a highly supported printer with an abundance of inf
 |Specs|Value
 |-|-|
 |Nozzle Diameter| 0.4mm  
-|Filament Diameter| 1.75mm
+|Nozzle Type| MK8
 |Print area| 220 x 220 x 250 mm
-|Hot Bed Temperature| 110°C
-|Hot End Temperature| 260°C   
-|System| Windows, Linux, Mac  
-|Power Supply| 360W
-|Print Speed| Normal: 50mm/s - Max: 70mm/s 
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 70mm/s 
 |Layer Thickness| 50-350 μm      
-|SD-Card Support| yes
+|Filament Diameter| 1.75mm
 |Extruder Style| Bowden 
+|Power Supply| 12V 360W
+|Printer Footprint| 440 x 410 x 465 mm
 
 
 # User Guide

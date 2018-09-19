@@ -11,15 +11,17 @@ Creality is the current leaders in desktop 3D printers and it's clear why.
 
 # Specifications
 
-| Specifications      | Value                           |
-| ------------------- | ------------------------------- |
-| Power Supply        | 270W                            |
-| Print speed         | 60mm/s - 70mm/s                         |
-| Sd-card support     | Yes                             |
-| Printing software   | Cura, simplify3d, Repetier-Host |
-| Print area          | 220x220x250mm                  |
-| Nozzle Diameter     | 0.4mm               |
-| Printing accuracy   | 0.05-0.4mm                         |
-| Hot Bed Temperature | 110°C                           |
-| Hot End Temperature | 260°C                           |
-Extruder Style| Bowden|
+|Specs|Value
+|-|-|
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| MK8
+|Print area| 220 x 220 x 250 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 80mm/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Bowden 
+|Power Supply| 24V 270W
+|Printer Footprint| 420 x 410 x 470 mm

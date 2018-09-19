@@ -8,19 +8,20 @@ The design of this printer promotes high accuracy and low noise with a large bui
 
 # Specifications
 
-| Specifications      | Value                           |
-| ------------------- | ------------------------------- |
-| Power Supply        | 240W                            |
-| Print speed         | 80 - 100mm/s                         |
-| Sd-card support     | Yes                             |
-| Printing software   | Cura, simplify3d, Repetier-Host |
-| Print area          | 300x300x400mm                   |
-| Nozzle Diameter     | 0,2mm/0,3mm/0.4mm               |
-| Printing accuracy   | 0.1mm                           |
-| Hot Bed Temperature | N/A                             |
-|Layer height         | 100 - 300 Microns               |
-|Frame                | Aluminium                       |
-|Extruder             | Bowden                          |
+|Specs|Value
+|-|-|
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| MK8
+|Print area| 300 x 300 x 400 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 80mm/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Bowden 
+|Power Supply| 12V 360W
+|Printer Footprint| 615 x 600 x 490 mm
 
 # User Guide
 
