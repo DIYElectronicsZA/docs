@@ -2,33 +2,65 @@ site_name: Wiki
 pages:
     - Home: index.md
     - 3D Printers:
-        - DIY 3D Printers:
-            - Prusa i3: builddoc.md
+        - DIY 3D Printers: 
+            - DIYElectronics Overview: 3DPrinters/DIYPrinters/DIYoverview.md
+            - Prusa i3: 3DPrinters/DIYPrinters/builddoc.md
+            - Prusa i3 Premium: 3DPrinters/DIYPrinters/builddocprem.md
         - Wanhao 3D Printers:
-            - Wanhao i3 Plus: builddocplus.md
-            - Wanhao Duplicator i3 Plus: Duplicatori3plus.md
-            - Wanhao Duplicator 6: WanDup6.md
-            - Wanhao Duplicator 7: wanD7.md
+            - Wanhao Overview: 3DPrinters/Wanhao/Wanhaooverview.md
+            - Wanhao i3 Plus: 3DPrinters/Wanhao/builddocplus.md
+            - Wanhao Duplicator i3 Plus: 3DPrinters/Wanhao/Duplicatori3plus.md
+            - Wanhao Duplicator i3 Mini: 3DPrinters/Wanhao/WanI3mini.md
+            - Wanhao Duplicator 6: 3DPrinters/Wanhao/WanDup6.md
+            - Wanhao Duplicator 6 plus: 3DPrinters/Wanhao/WanDup6plus.md
+            - Wanhao Duplicator 7: 3DPrinters/Wanhao/wanD7.md
+            - Wanhao Duplicator 7 plus: 3DPrinters/Wanhao/wanD7plus.md
+            - Wanhao Duplicator 9: 3DPrinters/Wanhao/WanD9.md
         - Anycubic 3D Printers:
-            - Anycubic i3 Mega: AncubicI3Mega.md
-            - Anycubic Kossel Delta: AnyycubicKossDelt.md
+            - Anycubic Overview: 3DPrinters/Anycubic/Anycubicoverview.md
+            - Anycubic i3 Mega: 3DPrinters/Anycubic/AncubicI3Mega.md
+            - Anycubic Kossel Delta: 3DPrinters/Anycubic/AnyycubicKossDelt.md
+            - Anycubic Photon: 3DPrinters/Anycubic/AnycubicPhoton.md
         - Tevo 3D printers:
-            - Tevo Tarantula Prusa i3: TevoTran.md
-            - Tevo Black Widow: TevBlkWid.md
-            - Tevo Little Monster: lilmon.md
+            - Tevo Overview: 3DPrinters/Tevo/Tevooverview.md
+            - Tevo Tarantula Prusa i3: 3DPrinters/Tevo/TevoTran.md
+            - Tevo Black Widow: 3DPrinters/Tevo/TevBlkWid.md
+            - Tevo Little Monster: 3DPrinters/Tevo/lilmon.md
         - Creality 3D printers:
-            - Creality CR10: crealityCR10.md
-            - Creality CR10s: Creality10S.md
-        - Printer Comparisson: PrinterCompare.md    
+            - Creality Overview: 3DPrinters/Creality/Crealityoverview.md
+            - Creality CR10: 3DPrinters/Creality/crealityCR10.md
+            - Creality CR10s: 3DPrinters/Creality/Creality10S.md
+            - Creality CR10 S4: 3DPrinters/Creality/Creality10S4.md
+            - Creality CR10 S5: 3DPrinters/Creality/Creality10S5.md
+            - Creality CR20: 3DPrinters/Creality/CrealityCR20.md
+            - Creality Ender 3: 3DPrinters/Creality/CrealityEnder3.md
+        - Printer Comparisson: Additional/PrinterCompare.md
+        - FAQ: Additional/FAQ.md
+        - Filament comparisson: Additional/filament_specs.md
     - Arduino:
-        - Getting started with Arduino: Ardstart.md
-        - RAMPS Programming Guide: RAMPSPG.md
-        - Arduino 2WD robot car: robotcarkit.md
-    - FAQ: FAQ.md
+        - Arduino101: Arduino/Arduino101.md
+        - Arduino Troubleshooting: Arduino/ArduinoStartUP.md
+        - A6 GSM/GPRS Dev Board: Arduino/A6GSMGPRS.md
+        - USB to Serial Arduino Drivers: Arduino/RAMPSPG.md
+        - Set-up Bluetooth Module: Arduino/JDY08.md
+        - Arduino 2WD robot car: Arduino/Arduinokits/2WD car/robotcarkit.md
+        - Arduino Alphabot: Arduino/Alphabot.md
+        - Tamaguino: Arduino/Projects/Tamaguino/Tamaguino.md
+        - Noise Traffic Light: Arduino/Projects/Noise_Light/Noise_light.md
+        - Weather Station: Arduino/Projects/Weather_station/weatherstation.md
+    - Raspberry Pi:
+        - Raspberry Pi Alphabot 2: Raspberrypi/Alphabot2.md
+    - Kits:
+        - Arduino 2WD robot car: Arduino/Arduinokits/2WD car/robotcarkit.md
+        - Arduino Alphabot: Arduino/Alphabot.md
+        - Raspberry Pi Alphabot 2: Raspberrypi/Alphabot2.md
+    
     
 theme: windmill
 extra_css: [extra.css]
 extra_javascript: [extra.js]
 extra: 
     logo: img/diylogo.jpg
+    feature:
+        tabs: true
     

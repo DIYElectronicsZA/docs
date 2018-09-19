@@ -186,6 +186,7 @@ body {
   }
   .wm-small-left {
     float: left !important;
+    color: #3D3E3E;
   }
   #wm-search-show {
     display: block;
@@ -324,7 +325,7 @@ body {
 .btn-default:focus, .btn-default.focus {
   color: #333;
   background-color: #fff;
-  border-color: #52B848;
+  border-color: #3D3E3E;
 }
 
 .btn-default.greybtn {
@@ -347,7 +348,7 @@ body {
 }
 
 .wm-page-content a {
-  color: #005999;
+  color:#51b848;
 }
 
 .wm-article-nav {
@@ -394,7 +395,7 @@ body {
 
 .search-title {
   font-weight: bold;
-  color: #337ab7;
+  color: #3D3E3E;
   padding-right: 1rem;
 }
 
@@ -441,13 +442,13 @@ body {
 }
 
 h1 {
-    color: #51B848;
+    color: #3D3E3E;
     font-weight: 400;
     font-size: 42px;
 }
 
 h2, h3, h4, h5, h6 {
-    color: #51B848;
+    color: #333333;
     font-weight: 300;
 }
 

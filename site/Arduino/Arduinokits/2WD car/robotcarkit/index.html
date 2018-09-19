@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Arduino 2WD robot car - Wiki</title>
+    <link href="../../../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/highlight.css">
+    <link href="../../../../extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Build guide to basic Arduino 2WD robot car", url: "#build-guide-to-basic-arduino-2wd-robot-car", children: [
+          ]},
+          {title: "Relevant links", url: "#relevant-links", children: [
+              {title: "Parts list", url: "#parts-list" },
+              {title: "Suggested Tools", url: "#suggested-tools" },
+              {title: "Build Guide", url: "#build-guide" },
+          ]},
+          {title: "Code guide", url: "#code-guide", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../../../../js/base.js"></script>
+      <script src="../../../../extra.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../../Alphabot/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../../Alphabot/" class="btn btn-xs btn-link">
+        Arduino Alphabot
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../../../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../../../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-link">
+        Raspberry Pi Alphabot 2
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="build-guide-to-basic-arduino-2wd-robot-car">Build guide to basic Arduino 2WD robot car</h1>
+<p>Everything you need to know to get you started on building your own Arduino 2WD robot car.</p>
+<h1 id="relevant-links">Relevant links</h1>
+<p><a href="https://www.diyelectronics.co.za/store/robotic-kits/1155-2-wheel-drive-arduino-diy-robot-chassis-and-electronics-kit.html">Get your very own robot car kit here</a>.</p>
+<p>If you want to read about a noob's experience with building this car for the first time then follow this link!
+<a href="https://www.diyelectronics.co.za/blog/2017/10/25/robot-car-building-because-youre-never-to-old-for-a-remote-control-car/">Robot cars: Because you're never too old for a remote controlled car.</a></p>
+<h2 id="parts-list">Parts list</h2>
+<table>
+<thead>
+<tr>
+<th>Components</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arduino Sensor Shield v5.0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>L298N Dual H-Bridge Motor Driver</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Arduino Uno Board</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Servo Mounting Brackets</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Servo Motor (SG90)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Arduino USB Cable</td>
+<td>1</td>
+</tr>
+<tr>
+<td>HC-SR04 Sensor</td>
+<td>1</td>
+</tr>
+<tr>
+<td>DC Motors</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2.51” Rubber Wheels</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Acrylic Robot Chassis</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Speed Encoders</td>
+<td>2</td>
+</tr>
+<tr>
+<td>DC 1.5V Battery Holder</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Motor Blocks</td>
+<td>4</td>
+</tr>
+<tr>
+<td>ON-OFF Switch</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Metal Ball Caster</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Jumper Wire Set</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Bluetooth Module</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Brass standoffs</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../img/wrapped_parts.jpg" /></p>
+<h2 id="suggested-tools">Suggested Tools</h2>
+<ul>
+<li>
+<p>Needle nose pliers</p>
+</li>
+<li>
+<p>Wire cutters</p>
+</li>
+<li>
+<p>Soldering iron</p>
+</li>
+<li>
+<p>Screwdriver</p>
+</li>
+</ul>
+<h2 id="build-guide">Build Guide</h2>
+<ol>
+<li>
+<p>First remove all the adhesive protection from the robot chassis and the motor blocks.</p>
+</li>
+<li>
+<p>Use two motor blocks per motor to install the motors on the bottom of the chassis using two long screws and two nuts each and attach the wheels.</p>
+<p><img alt="" src="../img/DC_motor.jpg" /></p>
+</li>
+<li>
+<p>Clip the ON/OFF switch into the rectangular space in the middle of the chassis.</p>
+</li>
+<li>
+<p>Using the 4 Brass standoffs and eight screws attach the metal ball caster to the front bottom of the chassis.</p>
+<p><img alt="" src="../img/ball_wheel.jpg" /></p>
+</li>
+<li>
+<p>The best place to install the battery holder is the front of the chassis, however all components can be attached as you desire. Attach the battery holder using two screws and two nuts. (optional: add two plastic spacers to raise the battery holder off the chassis).</p>
+</li>
+<li>
+<p>Attach the motor driver to the bottom of the chassis in the middle. The motor driver only needs to be attached with two screws and two nuts.</p>
+</li>
+<li>
+<p>Attach the Arduino Uno board behind the battery holder and in front of the ON/OFF switch, using two screws and two nuts. (Optional: Add plastic spacers to raise Arduino from the chassis).
+Suggested placements of the battery holder, Uno board and motor driver is shown in the image below.</p>
+<p><img alt="" src="../img/batt_uno_place.jpg" /></p>
+</li>
+<li>
+<p>Next up, position the Servo Motor between the two brackets and screw them together as shown in the pictures below.</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../img/servo1.jpg" /></th>
+<th><img alt="" src="../img/servo2.jpg" /></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+</li>
+<li>
+<p>Attach the servo holder to the back of the chassis with two screws and two nuts. The motor can then be clipped in to servo holder.</p>
+</li>
+<li>
+<p>Next up is wiring your robot. Firstly, attach the red wire of the battery holder to the “O” part of the ON/OFF switch. This can be done by either hooking the wire on or soldering.</p>
+</li>
+<li>
+<p>Attach power and ground wires to the motor through soldering, and connect to motor driver correct connection spots as shown below.
+    <img alt="" src="../img/wiring.jpg" /></p>
+</li>
+<li>
+<p>Now connect a power wire (red) to the “I” part of the switch and connect the other end to the first connection spot of the motor driver (Shown in the pink circle in the above image).</p>
+</li>
+<li>
+<p>Connect the black wire of the power holder to the second connection spot on the motor driver as well as another brown wire (Shown in the green circle in the image above). </p>
+</li>
+<li>
+<p>Connect another wire from the third connection spot on the motor driver (Shown in yellow circle in the image above) and connect this wire to a Vcc pin on the Arduino shield.</p>
+</li>
+<li>
+<p>Connect the brown wire from the second connection spot to a ground pin on the Arduino shield.</p>
+</li>
+<li>
+<p>Place the Arduino Sensor Shield on top of the Arduino board. Ensure you connect the correct matching pins on either board.</p>
+</li>
+<li>
+<p>Using the jumper wires provided connect 4 to the HC-SR04. Colour coordinate your jumpers according to this guide to make your life easier. Connect the wires as shown in the image below.</p>
+</li>
+<li>
+<p>Connect the wires of your servo motor as shown in the image below.</p>
+</li>
+<li>
+<p>Lastly connect the motor driver pins to the Arduino Sensor Shield pins according to the image below.</p>
+</li>
+<li>
+<p>Next you will want to connect your Bluetooth module as well. Connect your TXD pin on your Bluetooth module to the RX pin on the Arduino Shield and your RXD pin to your TX pin as per the image below. Connect the VCC pin and GND pin to a V and G pin respectively on the Arduino Shield (at pin 0) as seen below.</p>
+</li>
+<li>
+<p>Starting code is provided which includes code to run your motors, link your Bluetooth module as well as primitive obstacle avoidance. You can use this code as your starting pointing to improving your robot’s obstacle maneuvering.</p>
+</li>
+<li>
+<p>Below is a table to show corresponding pin numbers to possibly make your life easier if you are a complete beginner. Pin locations are not set in stone, but will help you if you directly load our sample code without any changes. Below is also a diagram to help you see general wiring of your robot car.
+    <img alt="" src="../img/pin_table.jpg" /></p>
+<p><img alt="" src="../img/schematic.jpg" /></p>
+</li>
+</ol>
+<p>You can also download a copy of our build guide <a href="../robot_build.docx">here</a>.</p>
+<h1 id="code-guide">Code guide</h1>
+<p>Below is some base code for your robot car including obstacle avoidance.</p>
+<ul>
+<li>
+<p><a href="../BT_car_and_obstacle_avoidance.ino">Robot car obstacle avoidance code</a></p>
+</li>
+<li>
+<p><a href="../BTCarV2-no_servo.ino">Robot car no obstacle avoidance</a></p>
+</li>
+</ul>
+<p><strong>Alternatively check out the link below for another build guide.</strong></p>
+<p><a href="../ARDUINO_2WD_SMART_ROBOT_CAR.pdf">2WD robot build guide</a></p>
+
+  <br>
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../../Alphabot/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../../Alphabot/" class="btn btn-xs btn-link">
+        Arduino Alphabot
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../../../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../../../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-link">
+        Raspberry Pi Alphabot 2
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+</footer>
+
+</body>
+</html>

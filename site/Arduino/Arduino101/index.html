@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Arduino101 - Wiki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Arduino 101 Intro", url: "#arduino-101-intro", children: [
+          ]},
+          {title: "Arduino Uno (R3)", url: "#arduino-uno-r3", children: [
+          ]},
+          {title: "Arduino Mega 2560 (R3)", url: "#arduino-mega-2560-r3", children: [
+          ]},
+          {title: "Arduino Pro Mini 328", url: "#arduino-pro-mini-328", children: [
+          ]},
+          {title: "Testing your Arduino", url: "#testing-your-arduino", children: [
+          ]},
+          {title: "Arduino Getting Started Links", url: "#arduino-getting-started-links", children: [
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script>
+      <script src="../../extra.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../ArduinoStartUP/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../ArduinoStartUP/" class="btn btn-xs btn-link">
+        Arduino Troubleshooting
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../../Additional/filament_specs/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../../Additional/filament_specs/" class="btn btn-xs btn-link">
+        Filament comparisson
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="arduino-101-intro">Arduino 101 Intro</h1>
+<p>The first thing that you need to know about Arduino is what board do you use? Sure you could use a Mega or and Uno for a range of tasks,
+but you should also know what is the minimum requirements of your board to perform a certain task you have in mind.
+So let's look at the available boards and their capabilities:</p>
+<h1 id="arduino-uno-r3">Arduino Uno (R3)</h1>
+<p><img alt="" src="../img/ArduinoUno.jpg" /></p>
+<p>The Arduino Uno R3 comes with an ATmega16U2 which in noob terms compared to older versions, the board is now cable of faster transfer rates
+and contains more memory.</p>
+<p><strong>Pins:</strong> 14 digital input/output pins (of which 6 can be used as PWM output).
+      6 analog inputs.</p>
+<p><strong>Microcontroller</strong>: ATmega328</p>
+<p><strong>Operating Voltage</strong>: 5V</p>
+<p><strong>Input Voltage (recommended)</strong>: 7-12V</p>
+<p><strong>Input Voltage (limits)</strong>: 6-20V</p>
+<p><strong>DC Current per I/O Pin:</strong> 40 mA</p>
+<p><strong>DC Current for 3.3V Pin:</strong> 50 mA</p>
+<p><strong>Flash Memory:</strong> 32 KB of which 0.5 KB used by bootloader</p>
+<p><strong>SRAM:</strong> 2 KB (ATmega328)</p>
+<p><strong>EEPROM:</strong> 1 KB (ATmega328)</p>
+<p><strong>Clock Speed:</strong> 16 MHz</p>
+<h1 id="arduino-mega-2560-r3">Arduino Mega 2560 (R3)</h1>
+<p><img alt="" src="../img/ArduinoMega.jpg" /></p>
+<p>This version of the mega comes with a ATmega16U2 to replace the previous 8U2.</p>
+<p><strong>Pins:</strong> 54 digital input/output pins (of which 14 provide PWM output)
+      16 analog inputs</p>
+<p><strong>Microcontroller:</strong> ATmega2560</p>
+<p><strong>Operating Voltage:</strong> 5V</p>
+<p><strong>Input Voltage:</strong> (recommended) 7-12V</p>
+<p><strong>Input Voltage:</strong> (limits) 6-20V</p>
+<p><strong>DC Current per I/O Pin:</strong> 40 mA</p>
+<p><strong>DC Current for 3.3V Pin:</strong> 50 mA</p>
+<p><strong>Flash Memory:</strong> 256 KB of which 8 KB used by bootloader</p>
+<p><strong>SRAM:</strong> 8 KB</p>
+<p><strong>EEPROM:</strong> 4 KB</p>
+<p><strong>Clock Speed:</strong> 16 MHz</p>
+<h1 id="arduino-pro-mini-328">Arduino Pro Mini 328</h1>
+<p><img alt="" src="../img/ArduinoProMini.png" /></p>
+<p>These boards are a minimalistic design for an Arduino board. These boards come in two versions 5V/16MHz or the 3.3V/8MHz. This board although
+it looks small and not intimidating it is not for the first time Arduino user, this board is designed for makers looking for a small sized board.
+These boards do not come with connectors attached but rather allows the user to solder on their own connectors or wires as they please.</p>
+<p><strong>Pins:</strong> 14 digital input/output pins (of which 6 can be used as PWM output).
+      6 analog inputs.</p>
+<p><strong>Microcontroller:</strong> ATmega328</p>
+<p><strong>Operating Voltage:</strong> 5V/3.3V
+                    DC input 5V up to 12V</p>
+<p><strong>DC Current per I/O Pin:</strong> 40 mA</p>
+<p><strong>Flash Memory:</strong> 32KB of which 2 KB used by bootloader</p>
+<p><strong>SRAM:</strong> 2 KB/ 1KB</p>
+<p><strong>EEPROM:</strong> 1 KB/ 512 Bytes</p>
+<h1 id="testing-your-arduino">Testing your Arduino</h1>
+<p>Before jumping in to your chosen project for your Arduino, you should be sure your Arduino is fully functional. </br>
+To do this all you will need to do is connect your Arduino via serial to your computer and upload the blink.ino to your board. </br>
+You can find the blink.ino program within your Arduino IDE under Files -&gt; Examples -&gt; Basics -&gt; Blink. </br>
+When uploading the Blink program make sure you have selected the correct Port and upload speed under tools.
+If you're Arduino is in working order and you have uploaded the code correctly you should see the on board LED of your Arduino flashing.</p>
+<h1 id="arduino-getting-started-links">Arduino Getting Started Links</h1>
+<ul>
+<li>Basic references are provided by the Arduino foundation: <a href="https://www.arduino.cc/">https://www.arduino.cc/</a></li>
+<li>Programming references: <a href="https://www.arduino.cc/en/Reference/HomePage">https://www.arduino.cc/en/Reference/HomePage</a></li>
+<li>Getting started: <a href="https://www.arduino.cc/en/Guide/HomePage">https://www.arduino.cc/en/Guide/HomePage</a></li>
+<li>Program examples: <a href="http://playground.arduino.cc/">http://playground.arduino.cc/</a></li>
+</ul>
+
+  <br>
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../ArduinoStartUP/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../ArduinoStartUP/" class="btn btn-xs btn-link">
+        Arduino Troubleshooting
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../../Additional/filament_specs/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../../Additional/filament_specs/" class="btn btn-xs btn-link">
+        Filament comparisson
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+</footer>
+
+</body>
+</html>

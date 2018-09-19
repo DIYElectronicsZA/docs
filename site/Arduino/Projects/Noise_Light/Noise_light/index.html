@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Noise Traffic Light - Wiki</title>
+    <link href="../../../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/highlight.css">
+    <link href="../../../../extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../../../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Noise Traffic light", url: "#noise-traffic-light", children: [
+              {title: "Material", url: "#material" },
+              {title: "Diagram", url: "#diagram" },
+              {title: "Instructions", url: "#instructions" },
+              {title: "Code", url: "#code" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../../../js/base.js"></script>
+      <script src="../../../../extra.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../Weather_station/weatherstation/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../Weather_station/weatherstation/" class="btn btn-xs btn-link">
+        Weather Station
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../../Tamaguino/Tamaguino/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../../Tamaguino/Tamaguino/" class="btn btn-xs btn-link">
+        Tamaguino
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="noise-traffic-light">Noise Traffic light</h1>
+<p><b>(<a href="https://www.instructables.com/id/Noise-Traffic-Light-DIY-3D-Printed/">Original</a> design by Innovart Studio)</b></p>
+<p><img alt="" src="../img/Green_light.jpg" /><img alt="" src="../img/Yellow_light.jpg" /><img alt="" src="../img/Red_light.jpg" /></p>
+<p>We found this project during a casual scroll through <a href="../Instructables.com">Instructables</a> and we thought it would make a perfect addition to our office. The Noise Traffic light works by detecting the noise levels in the room and keeping a running average of them.
+The traffic light remains green until a value exceeds the running average by a preset amount, it then switches to orange or red depending on how much higher the incoming value is.
+This project is super simple and easy for even a beginner maker.</p>
+<h3 id="material">Material</h3>
+<p><a href="https://www.diyelectronics.co.za/store/boards/1501-arduino-pro-mini-v2-5v16mhz-328p.html">Arduino Pro Mini</a><br />
+<a href="https://www.diyelectronics.co.za/store/audio/1804-ky-012-active-buzzer-module.html?search_query=buzzer&amp;results=18">Buzzer</a><br />
+<a href="https://www.diyelectronics.co.za/store/led-strips/1846-ws2812b-rgb-led-strip-30m-5vdc-ip65.html?search_query=neopixel&amp;results=6">Neopixels</a> x3<br />
+<a href="https://www.diyelectronics.co.za/store/audio/627-microphone-sensor-module.html?search_query=microphone&amp;results=11">Microphone Module</a><br />
+<a href="https://www.diyelectronics.co.za/store/connectors-wiring/1836-wire-wrapping-wire-30awg-8-colours-280meters.html">Wires</a><br />
+<a href="https://www.diyelectronics.co.za/store/resistors/1567-resistor-1k-ohm-14w-5.html">Resistor</a> <br />
+USB micro USB Breakout Board</p>
+<p>Soldering iron<br />
+Solder</p>
+<h2 id="diagram">Diagram</h2>
+<p><img alt="" src="../img/Noise_light.jpg" /></p>
+<h2 id="instructions">Instructions</h2>
+<ol>
+<li>Solder a wire to the VCC pin, the GND pin and pin A0 on your Pro Mini as shown in the image below.</li>
+<li>Solder a wire to one end of your resistor and solder the resistor to pin 6 on your Pro Mini.</li>
+<li>
+<p>You can then solder your buzzer to pin 4 and GND pin.
+   <img alt="" src="../img/Mini_layout.jpg" />
+   <b> The image above shows the connections for the GND, VCC, A0, 6 and 4 pins on the Pro Mini v2 Board</b>  </p>
+</li>
+<li>
+<p>Solder the wires from step 1 to the corresponding VCC and GND pin on the micophone module.</p>
+</li>
+<li>
+<p>Solder one wire to the GND pin on your Breakout Board and another to the VBUS pin. <br />
+    You can then solder these wires to any point that connects to GND and VCC respectively. We connected our GND and VCC wires to the pins on our microphone board.
+    <img alt="" src="../img/Microphone_layout.jpg" /><br />
+    <b> The image above shows wiring on the microphone module, note that VCC and GND wires from other modules can be soldered to the same spot</b></p>
+</li>
+<li>
+<p>Solder the wire from pin 6 on your Pro Mini to the signal pin on your neopixel strip (middle spot).</p>
+</li>
+<li>Solder the GND and VCC pin on the neopixels to corresponding pins on the Pro Mini. Again we connected our wires to the pins on the microphone board.</li>
+<li>Layout your pixels in the front of your traffic light and place all modules behind this.</li>
+</ol>
+<h2 id="code">Code</h2>
+<p>The original code comes from <a href="https://www.instructables.com/id/Noise-Traffic-Light-DIY-3D-Printed/">Innovart Instructables page</a>.<br />
+We modified the code to include a running average to use as a base line.
+If noise value is 3 bigger than the average the yellow light is activated, if the value is 8 bigger the red light and buzzer is activated.</p>
+<p><a href="../Trafic_light_noise.ino">Traffic Light Noise Detector DOWNLOAD</a></p>
+<pre><code>#include &lt;Adafruit_NeoPixel.h&gt;
+#define PIN 6
+#define buzz 4
+#define NUMPIXELS 3
+#include &quot;RunningAverage.h&quot;
+
+RunningAverage myRA(20);
+int samples = 0;
+int sensorValue, caseCount;
+int Run_ave;
+  Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+void setup () 
+{
+  Serial.begin (9600);
+  pinMode(buzz, OUTPUT);
+  digitalWrite(buzz, LOW);
+  myRA.clear();
+  pixels.begin();
+}
+void loop () 
+{
+  sensorValue = analogRead(A0);
+  myRA.addValue(sensorValue);
+  Run_ave = (myRA.getAverage());
+  samples++;
+  Serial.print(&quot;Running Average: &quot;);
+  Serial.println(Run_ave);
+  Serial.println(&quot;Reading:&quot;);
+
+  if (sensorValue &gt; Run_ave + 8)
+    {
+      Serial.println(sensorValue);
+      pixels.setPixelColor(0, pixels.Color(0,0,0));
+      pixels.setPixelColor(1, pixels.Color(0,0,0));
+      pixels.setPixelColor(2, pixels.Color(255,0,0));
+      digitalWrite(buzz, HIGH);
+      pixels.show();
+      delay(1000);
+    }
+  else if (sensorValue &gt; Run_ave + 3)
+    {
+      pixels.setPixelColor(0, pixels.Color(0,0,0));
+      pixels.setPixelColor(1, pixels.Color(255,165,0));
+      pixels.setPixelColor(2, pixels.Color(0,0,0));
+      digitalWrite(buzz, LOW);
+      pixels.show();
+      delay(1500);
+    }
+   else {
+    pixels.setPixelColor(0, pixels.Color(0,255,0));
+    pixels.setPixelColor(1, pixels.Color(0,0,0));
+    pixels.setPixelColor(2, pixels.Color(0,0,0));
+    digitalWrite(buzz, LOW);
+    pixels.show();
+   }
+  if (samples == 300)
+  {
+    samples = 0;
+    myRA.clear();
+  }
+  delay(100);
+  }
+</code></pre>
+
+  <br>
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../Weather_station/weatherstation/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../Weather_station/weatherstation/" class="btn btn-xs btn-link">
+        Weather Station
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../../Tamaguino/Tamaguino/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../../Tamaguino/Tamaguino/" class="btn btn-xs btn-link">
+        Tamaguino
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Arduino Alphabot - Wiki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script>
+      <script src="../../extra.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-link">
+        Raspberry Pi Alphabot 2
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-link">
+        Arduino 2WD robot car
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 align="center">ALPHABOT BUILD GUIDE</h1>
+
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../img/Alpha_main.jpg" /></th>
+<th><img alt="" src="../img/Alpha_main3.jpg" /></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><center><img alt="" src="../img/Alphabot_1.jpg" /></center></p>
+<p><b>STEP 1:</b> First and foremost you should connect your Arduino to the Arduino slot on the Alphabot board, as shown in the image below.</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../img/Alphabot_2.jpg" /></th>
+<th><img alt="" src="../img/Alphabot_3.jpg" /></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><b>STEP 2:</b> Attach corresponding cables to their module as shown in the table and picture below.</p>
+<table>
+<thead>
+<tr>
+<th>Module</th>
+<th>Wire Number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Speed Measuing interface</td>
+<td>3 Wires x 2</td>
+</tr>
+<tr>
+<td>Obstacle avoidance interface</td>
+<td>4 Wires x 2</td>
+</tr>
+<tr>
+<td>Tracker Sensor</td>
+<td>7 Wires x1</td>
+</tr>
+<tr>
+<td>Ultrasonic mount</td>
+<td>4 Wires x1</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../img/Alphabot_6.jpg" /></p>
+<p><b>STEP 3:</b> Attach the ultrasonic sensor to the ultrasonic board as shown in the image below.</p>
+<p><img alt="" src="../img/Alphabot_7.jpg" /></p>
+<p><b>STEP 4:</b> The servo slots into the remaining plastic mount as shown below. Clip on the plastic servo horn that comes with your servo, onto the top of the servo.</p>
+<p><img alt="" src="../img/Alphabot_8.jpg" /></p>
+<p><b>STEP 5:</b> Attach the obstacle interface board to the corresponding pins found at the bottom front of the Alpha board (5v, GND, AR/LR, DR/DL).</p>
+<p><img alt="" src="../img/Alphabot_10.jpg" /></p>
+<p><b>STEP 6:</b> Next you want to connect the speed measuring inerfaces to the pins just below those of the obstacle interface on the Alpha board (5V, GND, CNTR/CNTL)</p>
+<p><img alt="" src="../img/Alphabot_12.jpg" /></p>
+<p><b>STEP 7:</b> Attach the tracker sensor to the back of the robot.</p>
+<p><b>STEP 8:</b> The alphabot comes with 3 different sizes of spacers, as shown below. Attach the smallest spacers to the plastic mount you linked your servo with.
+ Following this you can attach the servo and its mount to the Alphabot board.</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../img/Alphabot_13.jpg" /></th>
+<th><img alt="" src="../img/Alphabot_14.jpg" /></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><b>STEP 9:</b> Attached ultrasonic sensor module to its corresponding mount/board as shown and attach to the servo.</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../img/Alphabot_15.jpg" /></th>
+<th><img alt="" src="../img/Alphabot_16.jpg" /></th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+<p><b>STEP 10:</b> Attach the two yellow wheel motors to the two Motor slots on the bottom of the Alphaboard, as shown. You will be using the 4 T shapped plastic mounts to hold the motor in place.</p>
+<p><center><img alt="" src="../img/Alphabot_20.jpg" /> <img alt="" src="../img/Alphabot_17.jpg" />  <img alt="" src="../img/Alphabot_22.jpg" /></center></p>
+<p><b>STEP 11:</b> Attach the obstacle avoidance sensors to the end holes of the front side and the servo wires to the 3 pins in the middle. (GND(brown), 5V(red), S1(orange))</p>
+<p><b>STEP 12:</b> Slot the speed monitoring sensors (encoder) in the holes next to the battery holder, these holes might be a little bit tight,
+ but don't worry, you can use a file to make them a little bit bigger.</p>
+<p><b> In the image below, the red circle shows the speed monitoring sensor and the green shows the obstacle avoidance sensors.</b></p>
+<p><img alt="" src="../img/Alphabot_18.jpg" /></p>
+<p><b>STEP 13:</b> Attach wheels to the motors.</p>
+<p><img alt="" src="../img/Alphabot_23.jpg" /></p>
+<p><b>STEP 14:</b> Connect rolling metal wheel to stand alone Alphaboard at the bottom as shown.</p>
+<p><img alt="" src="../img/Alphabot_24.jpg" /></p>
+<p><b>STEP 15:</b> Connect largest spacers to your bottom standalone Alphabot board, make sure you have at least 6 spacers spread across the board.</p>
+<p><b>STEP 16:</b> Connect tracker sensor to bottom stand alone body piece.</p>
+<p><b> STEP 17:</b>LASTLY! Connect stand alone body to Arduino body at spacer sites.</p>
+<p><img alt="" src="../img/Alphabot_25.jpg" /></p>
+
+  <br>
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../../Raspberrypi/Alphabot2/" class="btn btn-xs btn-link">
+        Raspberry Pi Alphabot 2
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-link">
+        Arduino 2WD robot car
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+</footer>
+
+</body>
+</html>

@@ -4,11 +4,7 @@
     
     <url>
      <loc>/</loc>
-<<<<<<< HEAD
-     <lastmod>2017-12-15</lastmod>
-=======
-     <lastmod>2017-10-25</lastmod>
->>>>>>> CiciDIY-patch-1
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -46,12 +42,20 @@
     </url>
         
     <url>
-     <loc>/PrinterCompare/</loc>
-<<<<<<< HEAD
-     <lastmod>2017-12-15</lastmod>
-=======
-     <lastmod>2017-10-25</lastmod>
->>>>>>> CiciDIY-patch-1
+     <loc>/Additional/PrinterCompare/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Additional/FAQ/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Additional/filament_specs/</loc>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -60,47 +64,97 @@
     
         
     <url>
-     <loc>/Ardstart/</loc>
-<<<<<<< HEAD
-     <lastmod>2017-12-15</lastmod>
-=======
-     <lastmod>2017-10-25</lastmod>
->>>>>>> CiciDIY-patch-1
+     <loc>/Arduino/Arduino101/</loc>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/RAMPSPG/</loc>
-<<<<<<< HEAD
-     <lastmod>2017-12-15</lastmod>
-=======
-     <lastmod>2017-10-25</lastmod>
->>>>>>> CiciDIY-patch-1
+     <loc>/Arduino/ArduinoStartUP/</loc>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/robotcarkit/</loc>
-<<<<<<< HEAD
-     <lastmod>2017-12-15</lastmod>
-=======
-     <lastmod>2017-10-25</lastmod>
->>>>>>> CiciDIY-patch-1
+     <loc>/Arduino/A6GSMGPRS/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/RAMPSPG/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/JDY08/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/Arduinokits/2WD car/robotcarkit/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/Alphabot/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/Projects/Tamaguino/Tamaguino/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/Projects/Noise_Light/Noise_light/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/Projects/Weather_station/weatherstation/</loc>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
+        
     <url>
-     <loc>/FAQ/</loc>
-<<<<<<< HEAD
-     <lastmod>2017-12-15</lastmod>
-=======
-     <lastmod>2017-10-25</lastmod>
->>>>>>> CiciDIY-patch-1
+     <loc>/Raspberrypi/Alphabot2/</loc>
+     <lastmod>2018-09-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/Arduino/Arduinokits/2WD car/robotcarkit/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Arduino/Alphabot/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/Raspberrypi/Alphabot2/</loc>
+     <lastmod>2018-09-19</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

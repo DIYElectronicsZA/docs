@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Set-up Bluetooth Module - Wiki</title>
+    <link href="../../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+    <link href="../../extra.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="../../js/jquery-3.2.1.min.js"></script>
+    <script src="../../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '../..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Setting up your Bluetooth / BLE Module!", url: "#setting-up-your-bluetooth-ble-module", children: [
+              {title: "You will need:", url: "#you-will-need" },
+              {title: "To Connect your Bluetooth Module to the FTDI", url: "#to-connect-your-bluetooth-module-to-the-ftdi" },
+              {title: "Guide to testing Bluetooth Module", url: "#guide-to-testing-bluetooth-module" },
+          ]},
+        ];
+
+    </script>
+    <script src="../../js/base.js"></script>
+      <script src="../../extra.js"></script> 
+</head>
+
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
+
+
+
+<div class="container-fluid wm-page-content">
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-link">
+        Arduino 2WD robot car
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../RAMPSPG/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../RAMPSPG/" class="btn btn-xs btn-link">
+        USB to Serial Arduino Drivers
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <p><center></p>
+<h1 id="setting-up-your-bluetooth-ble-module">Setting up your Bluetooth / BLE Module!</h1>
+<p><strong>(HC-05/6 or JDY-08 / AT-09)</strong>
+</center></p>
+<h3 id="you-will-need">You will need:</h3>
+<ul>
+<li>1 x <a href="https://www.diyelectronics.co.za/store/bluetooth/1441-jdy-08-cc2541-bluetooth-40-ble-serial-module.html">Bluetooth Module (HC-05/6 or JDY-08 / AT-09)</a>  </li>
+<li>1 x <a href="https://www.diyelectronics.co.za/store/serial/1460-ftdi-ft232r-usb-ttl-serial-breakout-module-programmer-ver2.html?">FTDI TTL Serial Module</a></li>
+</ul>
+<h3 id="to-connect-your-bluetooth-module-to-the-ftdi">To Connect your Bluetooth Module to the FTDI</h3>
+<p><center>
+<img alt="" src="../img/FTDI.PNG" />
+</center></p>
+<table>
+<thead>
+<tr>
+<th>Bluetooth Module</th>
+<th>FTDI Board</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VCC</td>
+<td>VCC</td>
+</tr>
+<tr>
+<td>RX</td>
+<td>TX</td>
+</tr>
+<tr>
+<td>TX</td>
+<td>RX</td>
+</tr>
+<tr>
+<td>GND</td>
+<td>GND</td>
+</tr>
+</tbody>
+</table>
+<h3 id="guide-to-testing-bluetooth-module">Guide to testing Bluetooth Module</h3>
+<ul>
+<li>
+<p>Upon plugging the FTDI into your computer, a red LED on the bluetooth module should start blinking.  </p>
+</li>
+<li>
+<p>Open your Arduino IDE, set your COM port to the COM port of the FTDI module, then open the Serial Monitor, and set the <strong>baudrate to 115200</strong>. </p>
+</li>
+<li>
+<p>On your smartphone, open your bluetooth settings, and you should see a bluetooth device by the name of either, <strong>"HC-05", "HC-06", "JDY-08", "AT-09"</strong>, depending on
+    the module you have.  </p>
+</li>
+<li>
+<p><strong>Pair with the module</strong>, using one of the following pairing codes <strong>"0000", "000000", "1234", "123456"</strong>, as the pairing code varies between modules.  </p>
+</li>
+<li>
+<p>Once paired, download a <strong>BLE Serial Communication App</strong>, on Android, we recommend, <strong>"Serial Bluetooth Terminal"</strong>, on iOS, we recommend <strong>"BluTerm"</strong>.   </p>
+</li>
+<li>
+<p>Inside the Serial Communication App, you will need to connect to the bluetooth module, and the Red Blinking LED on the module should now be a <strong>solid red</strong> LED.  </p>
+</li>
+<li>
+<p>Type <strong>"Test"</strong> into the Serial Communication App, and <strong>"Test"</strong> should appear in the Serial Monitor.   </p>
+</li>
+<li>
+<p>If you see a strange output in the Serial Monitor, such as <strong><code>?f&lt;#?"?怘⸮</code></strong>, change the baud rate to <strong>9600, 115200, or 19200</strong>, and send <strong>"Test"</strong> again, and there should be
+ a correct output.  </p>
+</li>
+</ul>
+
+  <br>
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../Arduinokits/2WD%20car/robotcarkit/" class="btn btn-xs btn-link">
+        Arduino 2WD robot car
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../RAMPSPG/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../RAMPSPG/" class="btn btn-xs btn-link">
+        USB to Serial Arduino Drivers
+      </a>
+    </div>
+    
+  </div>
+
+    <br>
+</div>
+
+<footer class="col-md-12 wm-page-content">
+</footer>
+
+</body>
+</html>
