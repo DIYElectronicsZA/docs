@@ -8,7 +8,6 @@ pages:
             - Prusa i3 Premium: 3DPrinters/DIYPrinters/builddocprem.md
         - Wanhao 3D Printers:
             - Wanhao Overview: 3DPrinters/Wanhao/Wanhaooverview.md
-            - Wanhao i3 Plus: 3DPrinters/Wanhao/builddocplus.md
             - Wanhao Duplicator i3 Plus: 3DPrinters/Wanhao/Duplicatori3plus.md
             - Wanhao Duplicator i3 Mini: 3DPrinters/Wanhao/WanI3mini.md
             - Wanhao Duplicator 6: 3DPrinters/Wanhao/WanDup6.md
