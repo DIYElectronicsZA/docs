@@ -34,7 +34,7 @@ pages:
             - Creality CR10 S5: 3DPrinters/Creality/Creality10S5.md
             - Creality CR20: 3DPrinters/Creality/CrealityCR20.md
             - Creality Ender 3: 3DPrinters/Creality/CrealityEnder3.md
-        - Printer Comparisson: Additional/PrinterCompare.md
+        - Printer Comparison: Additional/PrinterCompare.md
         - FAQ: Additional/FAQ.md
         - Filament comparisson: Additional/filament_specs.md
     - Arduino:
