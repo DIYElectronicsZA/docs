@@ -4,7 +4,6 @@ pages:
     - 3D Printers:
         - DIY 3D Printers: 
             - DIYElectronics Overview: 3DPrinters/DIYPrinters/DIYoverview.md
-            - Prusa i3: 3DPrinters/DIYPrinters/builddoc.md
             - Prusa i3 Premium: 3DPrinters/DIYPrinters/builddocprem.md
         - Wanhao 3D Printers:
             - Wanhao Overview: 3DPrinters/Wanhao/Wanhaooverview.md
