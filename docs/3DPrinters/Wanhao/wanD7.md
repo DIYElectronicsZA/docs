@@ -13,12 +13,10 @@ Equipped with an HD LCD screen you can easily control your print.
 |-|-|    
 |System| Windows, Linux, Mac  
 |Power Supply| NA  
-|Print Speed| 30mm/hour       
-|SD-Card Support| yes  
+|Print Speed| 30mm/h       
 |Max. Resolution| 35micron   
 |Printing Software| Creation Workshop   
-|Print Are| 120 x 68 x200 mm
-|Language| English  
+|Print Area| 120 x 68 x 200 mm
 |File type| OBJ, STL 
 
 #user manual
