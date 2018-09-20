@@ -5,18 +5,21 @@
 The Wanhao Duplicator I3 Mini is an excellent entry level printer for beginners. This printer comes entirely assembled and will easily fit on your desk due to it's small size.
 
 #Specifications
-|||
+
+|Specs|Value
 |-|-|
-|Build Volume|  120 x 135 x 100mm|
-|Layer Resolution| 0.1 – 0.4mm|
-|Extruder Quantity| Single Extruder|
-|Nozzle Diameter| 0.4mm|
-|Print Speed| 10mm/s - 60mm/s|
-|Supported Print Materials|PLA, ABS, PVA, HIPS, Wood, Flex, Conductive
-|Operational Extruder Temperature| 170°C - 260°C|
-|Input Formats| .STL, .OBJ, .DAE, .AMF|
-|Connectivity| SD Card, USB port (Expert users only)|
-|Input Rating| 100-240V AC, 50/60Hz, 3.5A|
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| E3D
+|Print area| 120 x 135 x 100 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| none  
+|Print Speed (Stable)| 40mm/s 
+|Print Speed (Max)| 60mm/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Bowden 
+|Power Supply| 12V 50W
+|Printer Footprint| 300 x 382 x 370 mm
 
 #User Manual
 * [ Wanhao I3 Mini User manual](pdfWanMini.pdf)

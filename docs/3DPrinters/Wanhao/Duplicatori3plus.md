@@ -7,19 +7,20 @@ A robust and economical version of the Prusa i3, this machine is a great machine
 
 #Specifications
 
-|||
+|Specs|Value
 |-|-|
-|Printer type| FDM|
-|Material| ABS, PLA, Exotics|
-|Build volume|  20 x 20 x 18 cm|
-|Min layer height| 100 microns|
-|Extruder head| 1|
-|Open source| Only software|
-|Can you use 3rd party material?| Yes|
-|Heated platform| Yes|
-|Filament diameter| 1.75|
-|On-printer controls| No|
-|Connectivity| USB SD card|
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| MK10
+|Print area| 200 x 200 x 180 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 70mm/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Direct Drive 
+|Power Supply| 12V 250W
+|Printer Footprint| 400 x 410 x 400 mm
 
 #User Manual
 Follow the link below to the Wanhao i3 V2 user manual

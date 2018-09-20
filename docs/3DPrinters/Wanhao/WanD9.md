@@ -20,19 +20,19 @@ Unique Features
 |![](img/WanD7.jpg)| ![](img/D7open.jpg)
 
 |Specs|Value
-|-|-|    
-|System| Windows, Linux, Mac
-|Build Volume| 300 x300 x400mm
+|-|-|
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| MK10
+|Print area| 300 x 300 x 400 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 80mm/s 
+|Layer Thickness| 50-350 μm      
 |Filament Diameter| 1.75mm
-Extruder Temperature| 0 - 270 °C  
-|Power Supply| 110 to 250V Auto-Switch - 50/60Hz
-|Print Speed| 30mm/hour       
-|SD-Card Support| yes  
-
-
-|Language| English  
-|File type| OBJ, STL 
-|Resin Support| 405nm Resin
+|Extruder Style| Direct Drive 
+|Power Supply| 12V ??W
+|Printer Footprint| 350 x 500 x 600 mm
 
 #user manual
 
