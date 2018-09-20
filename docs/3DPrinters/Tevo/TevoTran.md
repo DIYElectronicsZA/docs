@@ -9,7 +9,7 @@ The Tevo Tarantula design is based on the Prusa i3. The design for this printer 
 |Specs|Value
 |-|-|
 |Nozzle Diameter| 0.4mm  
-|Nozzle Type| MK10
+|Nozzle Type| E3D
 |Print area| 200 x 200 x 200 mm
 |Heated-Bed Max Temperature| 110°C
 |Hot-End Max Temperature| 260°C   
