@@ -10,20 +10,17 @@ With t-slot aluminium extrusion and linear rails for precision and easy assembly
 |Specs|Value
 |-|-|
 |Nozzle Diameter| 0.4mm  
-|Filament Diameter| 0.175mm    
-|Hot Bed Temperature| NA    
-|System| Windows, Linux, Mac  
-|Power Supply| 240V  
-|Print Speed| 2-80mm/s  
-|Layer Thickness| 0.1-0.4mm    
-|Color Print Speed|    
-|SD-Card Support| yes  
-|Max. Resolution| 0.1mm   
-|Printing Software| Cura   
-|Z Axis Positioning Accuracy| 0.01mm    
-|XY Axis Positioning Accuracy| 0.01mm  
-|Language| English   
-
+|Nozzle Type| E3D
+|Print area| Ø230 x 270 mm
+|Heated-Bed Max Temperature| none
+|Hot-End Max Temperature| 275°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 100m/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Bowden 
+|Power Supply| 12V 48W
+|Printer Footprint| Ø385 x 680 mm
 
 ##Build guide
 

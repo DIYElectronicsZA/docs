@@ -6,24 +6,21 @@ This extremely simple to assemble printer is designed for easy prints. Its rigid
 The 3.5-inch TFT Touch screen supports multilanguage custom and comes with one click "resume print" incase of power outages.
 
 #Specifications
+
 |Specs|Value
 |-|-|
 |Nozzle Diameter| 0.4mm  
+|Nozzle Type| E3D
+|Print area| 210 x 210 x 205 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 80mm/s 
+|Layer Thickness| 50-350 μm      
 |Filament Diameter| 1.75mm
-| Build Volume| 210x210x205mm    
-|Hot Bed Temperature| 110°C
-|Hotend Temperature| 260°C
-|System| Windows, Linux, Mac  
-|Power Supply| 300W  
-|Print Speed| 20-80mm/s  
-|Layer Height| 50-350  μm 
-|SD-Card Support| yes  
-|Max. Resolution| 0.1mm   
-|Printing Software| Cura   
-|Z Axis Positioning Accuracy| 0.002mm    
-|XY Axis Positioning Accuracy| 0.010mm  
-|Language| English
-|Extruder Style| Bowden   
+|Extruder Style| Bowden 
+|Power Supply| 12V 300W
+|Printer Footprint| 405 x 410 x 453 mm
 
 #User guide
 
