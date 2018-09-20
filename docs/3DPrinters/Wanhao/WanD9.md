@@ -31,7 +31,7 @@ Unique Features
 |Layer Thickness| 50-350 μm      
 |Filament Diameter| 1.75mm
 |Extruder Style| Direct Drive 
-|Power Supply| 12V ??W
+|Power Supply| 12V 350W
 |Printer Footprint| 350 x 500 x 600 mm
 
 #user manual
