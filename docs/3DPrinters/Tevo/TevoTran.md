@@ -8,20 +8,18 @@ The Tevo Tarantula design is based on the Prusa i3. The design for this printer 
 ##Specifications
 |Specs|Value
 |-|-|
-|Nozzle Diameter| 0.3/0.35/0.4mm  
-|Filament Diameter| 0.175mm    
-|Hot Bed Temperature| 210°C (the maximum can be set to 260°C)    
-|System| Windows, Linux, Mac  
-|Power Supply| 220V  
-|Print Speed| 70-100mm/s  
-|Layer Thickness| 0.1-0.4mm    
-|Color Print Speed| 150mm/s   
-|SD-Card Support| yes  
-|Max. Resolution| 0.1mm   
-|Printing Software| Cura   
-|Z Axis Positioning Accuracy| 0.004mm    
-|XY Axis Positioning Accuracy| 0.012mm  
-|Language| English
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| MK10
+|Print area| 200 x 200 x 200 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 260°C   
+|Print Speed (Stable)| 40mm/s 
+|Print Speed (Max)| 70mm/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Bowden 
+|Power Supply| 12V 60W
+|Printer Footprint| 430 x 440 x 400 mm
 
 #Build guide
 
