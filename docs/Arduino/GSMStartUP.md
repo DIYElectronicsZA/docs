@@ -10,7 +10,7 @@
 ###To Connect your Module to your FTDI TTL Serial Module
 
 <center>
-![](img/GSMAT.PNG)  
+![](img/gsmAT.PNG)   
 </center>
 
 |GSM/GPRS|FTDI|
