@@ -29,8 +29,6 @@ Set the baud rate to 9600.
 ###Communicating with your module
 Using the following commands, you can determine whether or not your module is connected to a network!
 
-Commands: 
-
 | Command | Response | Description |
 |-|-|-|
 | AT |OK | Device is connected over Serial |
