@@ -29,12 +29,13 @@ Set the baud rate to 9600.
 ###Communicating with your module
 Using the following commands, you can determine whether or not your module is connected to a network!
 
-Commands: 		
-|Command|Response|Description|
+Commands: 
+
+| Command | Response | Description |
 |-|-|-|
-|AT|OK|Device is connected over Serial|
-|AT+CPIN?|READY|Sim card is in and connected|
-|AT+CREG?|+CREG: 1,1|Device is registered on a GSM network|
-|AT+COPS?|+COPS: 0,0,"MTN-SA"|Device is registered on the "MTN-SA" network)|
+| AT |OK | Device is connected over Serial |
+| AT+CPIN? | READY | Sim card is in and connected |
+| AT+CREG? | +CREG: 1,1 | Device is registered on a GSM network |
+| AT+COPS? | +COPS: 0,0,"MTN-SA" | Device is registered on the "MTN-SA" network |
 
 If the Serial Monitor outputs random letters and symbols, try changing the baud rate to **19200**, **57600**, and **115200** and trying these commands again.
