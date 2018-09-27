@@ -13,11 +13,9 @@ Equipped with an HD LCD screen you can easily control your print.
 |-|-|    
 |System| Windows, Linux, Mac  
 |Power Supply| 110 to 250V Auto-Switch - 50/60Hz
-|Print Speed| 30mm/hour       
-|SD-Card Support| yes  
+|Print Speed| 30mm/h       
 |Max. Resolution| 35micron   
-|Print Are| 120 x 68 x180 mm
-|Language| English  
+|Print Area| 120 x 68 x 180 mm
 |File type| OBJ, STL 
 |Resin Support| 405nm Resin
 

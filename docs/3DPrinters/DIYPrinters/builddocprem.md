@@ -12,14 +12,15 @@
 
 |Specs|Value
 |-|-|
-|Nozzle Diameter| 0.4/0.5mm  
-|Filament Diameter| 1.75mm    
-|Hot Bed Temperature | 100°C max
-|System| RAMPS 1.4   
-|Power Supply| 240W  
-|Print Speed| 100mm/s max  
-|Layer Thickness| 0.025mm - 0.5mm    
-|SD-Card Support| yes  
-|Max. Resolution| 0.01mm   
-|Printing Software | Marlin Firmware supported by Cura, Simplify3D, </br> Repetier-Host and many more slicers    
-|Language| English   
+|Nozzle Diameter| 0.4mm  
+|Nozzle Type| E3D
+|Print area| 250 x 270 x 200 mm
+|Heated-Bed Max Temperature| 110°C
+|Hot-End Max Temperature| 300°C   
+|Print Speed (Stable)| 50mm/s 
+|Print Speed (Max)| 70mm/s 
+|Layer Thickness| 50-350 μm      
+|Filament Diameter| 1.75mm
+|Extruder Style| Direct Drive 
+|Power Supply| 12V 240W
+|Printer Footprint| 520 x 560 x 420 mm
