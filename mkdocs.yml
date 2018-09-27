@@ -4,9 +4,11 @@ pages:
     - 3D Printers:
         - DIY 3D Printers: 
             - DIYElectronics Overview: 3DPrinters/DIYPrinters/DIYoverview.md
+            - Prusa i3: 3DPrinters/DIYPrinters/builddoc.md
             - Prusa i3 Premium: 3DPrinters/DIYPrinters/builddocprem.md
         - Wanhao 3D Printers:
             - Wanhao Overview: 3DPrinters/Wanhao/Wanhaooverview.md
+            - Wanhao i3 Plus: 3DPrinters/Wanhao/builddocplus.md
             - Wanhao Duplicator i3 Plus: 3DPrinters/Wanhao/Duplicatori3plus.md
             - Wanhao Duplicator i3 Mini: 3DPrinters/Wanhao/WanI3mini.md
             - Wanhao Duplicator 6: 3DPrinters/Wanhao/WanDup6.md
@@ -39,7 +41,6 @@ pages:
         - Arduino101: Arduino/Arduino101.md
         - Arduino Troubleshooting: Arduino/ArduinoStartUP.md
         - A6 GSM/GPRS Dev Board: Arduino/A6GSMGPRS.md
-        - GSM/GPRS Module Troubleshooting: Arduino/GSMStartUP.md
         - USB to Serial Arduino Drivers: Arduino/RAMPSPG.md
         - Set-up Bluetooth Module: Arduino/JDY08.md
         - Arduino 2WD robot car: Arduino/Arduinokits/2WD car/robotcarkit.md
@@ -53,6 +54,8 @@ pages:
         - Arduino 2WD robot car: Arduino/Arduinokits/2WD car/robotcarkit.md
         - Arduino Alphabot: Arduino/Alphabot.md
         - Raspberry Pi Alphabot 2: Raspberrypi/Alphabot2.md
+    - Website Navigation:
+        - Securing stock: Additional/pre_order.md
     
     
 theme: windmill
