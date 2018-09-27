@@ -82,6 +82,12 @@
     </url>
         
     <url>
+     <loc>/Arduino/GSMStartUP/</loc>
+     <lastmod>2018-09-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/Arduino/RAMPSPG/</loc>
      <lastmod>2018-09-27</lastmod>
      <changefreq>daily</changefreq>

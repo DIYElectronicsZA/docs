@@ -746,6 +746,31 @@
             "title": "User Guide"
         }, 
         {
+            "location": "/Arduino/GSMStartUP/", 
+            "text": "Connecting to your GSM / GPRS Module!\n\n\n\n\nYou will need:\n\n\n\n\nGSM / GPRS Module (Any module that accepts AT Commands)\n\n\nFTDI TTL Serial Module\n\n\n\n\nTo Connect your Module to your FTDI TTL Serial Module\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\nGSM/GPRS\n\n\nFTDI\n\n\n\n\n\n\n\n\n\n\nVCC\n\n\nVCC\n\n\n\n\n\n\nGND\n\n\nGND\n\n\n\n\n\n\nRX\n\n\nTX\n\n\n\n\n\n\nTX\n\n\nRX\n\n\n\n\n\n\n\n\nImportant!\n If your GSM / GPRS Module has an \n\"EN\"\n pin, you must connect this to FTDI VCC as well.\n\n\nNow plug in your FTDI module to your computer, launch your Arduino IDE, select the correct COM port by \nTools -\n Port\n and selecting the COM port, and open the Serial Monitor.\nSet the baud rate to 9600.\n\n\nCommunicating with your module\n\n\nUsing the following commands, you can determine whether or not your module is connected to a network!\n\n\n\n\n\n\n\n\nCommand\n\n\nResponse\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nAT\n\n\nOK\n\n\nDevice is connected over Serial\n\n\n\n\n\n\nAT+CPIN?\n\n\nREADY\n\n\nSim card is in and connected\n\n\n\n\n\n\nAT+CREG?\n\n\n+CREG: 1,1\n\n\nDevice is registered on a GSM network\n\n\n\n\n\n\nAT+COPS?\n\n\n+COPS: 0,0,\"MTN-SA\"\n\n\nDevice is registered on the \"MTN-SA\" network\n\n\n\n\n\n\n\n\nIf the Serial Monitor outputs random letters and symbols, try changing the baud rate to \n19200\n, \n57600\n, and \n115200\n and trying these commands again.", 
+            "title": "AT Commands with GSM/GPRS"
+        }, 
+        {
+            "location": "/Arduino/GSMStartUP/#connecting-to-your-gsm-gprs-module", 
+            "text": "", 
+            "title": "Connecting to your GSM / GPRS Module!"
+        }, 
+        {
+            "location": "/Arduino/GSMStartUP/#you-will-need", 
+            "text": "GSM / GPRS Module (Any module that accepts AT Commands)  FTDI TTL Serial Module", 
+            "title": "You will need:"
+        }, 
+        {
+            "location": "/Arduino/GSMStartUP/#to-connect-your-module-to-your-ftdi-ttl-serial-module", 
+            "text": "GSM/GPRS  FTDI      VCC  VCC    GND  GND    RX  TX    TX  RX     Important!  If your GSM / GPRS Module has an  \"EN\"  pin, you must connect this to FTDI VCC as well.  Now plug in your FTDI module to your computer, launch your Arduino IDE, select the correct COM port by  Tools -  Port  and selecting the COM port, and open the Serial Monitor.\nSet the baud rate to 9600.", 
+            "title": "To Connect your Module to your FTDI TTL Serial Module"
+        }, 
+        {
+            "location": "/Arduino/GSMStartUP/#communicating-with-your-module", 
+            "text": "Using the following commands, you can determine whether or not your module is connected to a network!     Command  Response  Description      AT  OK  Device is connected over Serial    AT+CPIN?  READY  Sim card is in and connected    AT+CREG?  +CREG: 1,1  Device is registered on a GSM network    AT+COPS?  +COPS: 0,0,\"MTN-SA\"  Device is registered on the \"MTN-SA\" network     If the Serial Monitor outputs random letters and symbols, try changing the baud rate to  19200 ,  57600 , and  115200  and trying these commands again.", 
+            "title": "Communicating with your module"
+        }, 
+        {
             "location": "/Arduino/RAMPSPG/", 
             "text": "Serial to USB Arduino Driver Guide\n\n\n\n\nArduino boards come with two different USB chips, 16U2 and CH340, which come with two different drivers. \nThat is why we have made you a handy guide for loading your drivers.\nWe have even gathered all the files you will need in a zip file, that you can find  in the table below.\n\n\n\n\n\n\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\n.tg .tg-wm6t{font-weight:bold;font-size:16px}\n.tg .tg-24i8{font-size:24px;vertical-align:top}\n\n\n\n\n\n  \n\n    \nUSB to serial Arduino guide\n\n  \n\n  \n\n    \nChip type\n\n    \nDrivers\n\n  \n\n  \n\n    \n16U2\n\n    \n16U2 Driver\n\n  \n\n  \n\n    \nCH340\n\n    \nCH340 Driver", 
             "title": "USB to Serial Arduino Drivers"

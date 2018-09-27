@@ -41,6 +41,7 @@ pages:
         - Arduino101: Arduino/Arduino101.md
         - Arduino Troubleshooting: Arduino/ArduinoStartUP.md
         - A6 GSM/GPRS Dev Board: Arduino/A6GSMGPRS.md
+        - AT Commands with GSM/GPRS: Arduino/GSMStartUP.md
         - USB to Serial Arduino Drivers: Arduino/RAMPSPG.md
         - Set-up Bluetooth Module: Arduino/JDY08.md
         - Arduino 2WD robot car: Arduino/Arduinokits/2WD car/robotcarkit.md
