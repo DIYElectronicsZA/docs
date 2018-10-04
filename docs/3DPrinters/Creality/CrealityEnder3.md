@@ -7,21 +7,38 @@ The Creality Ender series is a highly supported printer with an abundance of inf
 
 # Specifications
 
-|Specs|Value
+|Specifications| Ender 3|
 |-|-|
-|Nozzle Diameter| 0.4mm  
-|Nozzle Type| MK8
-|Print area| 220 x 220 x 250 mm
-|Heated-Bed Max Temperature| 110°C
-|Hot-End Max Temperature| 260°C   
-|Print Speed (Stable)| 50mm/s 
-|Print Speed (Max)| 70mm/s 
-|Layer Thickness| 50-350 μm      
-|Filament Diameter| 1.75mm
-|Extruder Style| Bowden 
-|Power Supply| 12V 360W
-|Printer Footprint| 440 x 410 x 465 mm
-
+|Printing Technology|– FDM
+|Build Volume| – 220 x 220 x 250mm
+|Chassis Size (Desk Space Required)| – 440 x 410 x 465mm
+|Filament Diameter Compatibility| – 1.75mm
+|Extruder Style| – Bowden-Style
+|Stock Nozzle| – [0.4mm MK8 Nozzle](https://www.diyelectronics.co.za/store/mk-range/1898-4mm-mk8-nozzle-creality-original.html)
+|Stock Hotend Assembly| – [Creality MK10 Hotend Assembly (24V Version)](https://www.diyelectronics.co.za/store/hotend-assemblies/2093-creality-ender-3-hotend-assembly-24v.html)
+|Maximum Hotend Temperature| – 260°C
+|Print Platform Style| – Aluminium Bed with Creality BuildTak
+|Print Platform Max Temperature| – 110°C
+|Printing Speed (Stable)| – 50mm/s
+|Printing Speed (Max)| – 70mm/s
+|Layer Height (Resolution)| – 0.1 to 0.4mm
+|Motherboard / Primary Controller| – Creality3D V1.1.2 Mainboard
+|User Interface| – LCD Display with Rotary Encoder
+|Slicing Software Compatibility| – Cura / Simplify3D / Slic3r / Repetier Host
+|File Format Compatibility| – STL / OBJ / DAE / AMF
+|File Transfer Method| – Micro SD Card / Micro USB
+|Bed Levelling System| – Manual / Large Adjustable Corner Screws
+|Print Resume Functionality| – Included
+|Filament Runout Sensor| – Not Included
+|Chassis Materials| – Black Anodised Aluminium / V-Slot Extrusion
+|Included Slicing Software| – Cura Included on SD Card
+|Included 3D Printing Filament| – ±5m Test Filament - Silky
+|Distinct Features| – Incredible Value-For-Money
+|Weight (Printer)| – 8kg
+|Weight (Package)| – 8.6kg
+|Operating Voltage| – 24V
+|Power Supply Input| – 110V/220V AC
+|Power Supply Output| – 24V, 15A, 360W
 
 # User Guide
 

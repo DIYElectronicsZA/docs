@@ -6,20 +6,34 @@ The Tevo Tarantula has multiple options for bed size as well as interchagable ex
 The Tevo Tarantula design is based on the Prusa i3. The design for this printer is all OpenSource and a part of the RepRap project.
 
 ##Specifications
-|Specs|Value
+
+|Specifications|Tevo Tarantula|
 |-|-|
-|Nozzle Diameter| 0.4mm  
-|Nozzle Type| E3D
-|Print area| 200 x 200 x 200 mm
-|Heated-Bed Max Temperature| 110°C
-|Hot-End Max Temperature| 260°C   
-|Print Speed (Stable)| 40mm/s 
-|Print Speed (Max)| 70mm/s 
-|Layer Thickness| 50-350 μm      
-|Filament Diameter| 1.75mm
-|Extruder Style| Bowden 
-|Power Supply| 12V 60W
-|Printer Footprint| 430 x 440 x 400 mm
+|Printing Technology|– FDM
+|Build Volume|– 200 x 200 x 200mm
+|Chassis Size (Desk Space Required)| – 430 x 440 x 400mm
+|Filament Diameter Compatibility| – 1.75mm
+|Extruder Style| – Bowden Style (All-Metal)
+|Stock Nozzle| – [0.4mm E3D Nozzle](https://www.diyelectronics.co.za/store/e3d-range/208-4mm-e3d-nozzle-for-175mm-filament.html)
+|Stock Hotend Assembly| – E3D V6 Bowden Hotend
+|Maximum Hotend Temperature| – 260°C
+|Print Platform Style| – Custom MK3 Heated Bed
+|Print Platform Max Temperature| – 110°C
+|Printing Speed (Stable)| – 80mm/s
+|Printing Speed (Max)|– 150mm/s
+|Layer Height (Resolution)| – 50 microns
+|Motherboard / Primary Controller| – [MKS Base 1.4](https://www.diyelectronics.co.za/store/controller-boards/1807-tevo-tarantula-motherboard-mks-base-v14.html)
+|User Interface| – LCD Display with Potentiometer
+|Slicing Software Compatibility| – Cura / Simplify3D / Slic3r / Repetier Host
+|File Format Compatibility| – STL / OBJ / DAE / AMF
+|File Transfer Method| – TF Card / USB
+|Bed Levelling System| – Manually Adjustable
+|Chassis Materials| – Anodised Aluminium V-Slot
+|Weight (Printer)|– 7.5kg
+|Weight (Package)| – 9kg
+|Operating Voltage| – 12V DC or 24V DC (Optional)
+|Power Supply Input| – 220V AC, 50Hz
+|Power Supply Output| – 12V, 5A, 60W | S-60-12
 
 #Build guide
 

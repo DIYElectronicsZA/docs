@@ -19,20 +19,36 @@ Unique Features
 |-|-|
 |![](img/WanD7.jpg)| ![](img/D7open.jpg)
 
-|Specs|Value
+|Specification| Duplicator 9
 |-|-|
-|Nozzle Diameter| 0.4mm  
-|Nozzle Type| MK10
-|Print area| 300 x 300 x 400 mm
-|Heated-Bed Max Temperature| 110°C
-|Hot-End Max Temperature| 260°C   
-|Print Speed (Stable)| 50mm/s 
-|Print Speed (Max)| 80mm/s 
-|Layer Thickness| 50-350 μm      
-|Filament Diameter| 1.75mm
-|Extruder Style| Direct Drive 
-|Power Supply| 12V 350W
-|Printer Footprint| 350 x 500 x 600 mm
+|Printing Technology|– FDM
+|Build Volume|– 300 x 300 x 400mm
+|Chassis Size (Desk Space Required)|– 350 x 500 x 600mm
+|Filament Diameter Compatibility| – 1.75mm
+|Extruder Style| – Direct Drive : MK10 All-Metal Extruder
+|Stock Nozzle| – [0.4mm MK10 Nozzle](https://www.diyelectronics.co.za/store/mk-range/1270-4mm-mk10-nozzle-for-175mm-filament.html)
+|Stock Hotend Assembly| – [MK10 Hotend Assembly](https://www.diyelectronics.co.za/store/hotend-assemblies/1272-mk10-hotend-for-175mm-i3.html)
+|Maximum Hotend Temperature| – 300°C
+|Print Platform Style| – Aluminium Heated Bed / Wanhao Adhesive Sheet
+|Print Platform Max Temperature| – 100°C
+|Printing Speed (Stable)| – 60mm/s
+|Printing Speed (Max)| – 160mm/s
+|Layer Height (Resolution)| – 0.1 to 0.4mm
+|Motherboard / Primary Controller| – Wanhao Duplicator 9 Main Board V1.0
+|User Interface| – Onboard LCD with Rotary Encoder
+|Slicing Software Compatibility| – Cura / Simplify3D / Slic3r / Repetier Host
+|File Format Compatibility| – STL / OBJ / DAE / AMF
+|File Transfer Method| – SD Card / USB
+|Bed Levelling System| – Automatic Levelling System (Inductive)
+|Print Resume Functionality| – Included
+|Chassis Materials| – Black Anodised Aluminium
+|Included Slicing Software| – Cura2 Wanhao Edition
+|Distinct Features| – Magnetic Flexible Adhesion Plate
+|Weight (Printer)| – 20kg
+|Weight (Package)| – 22kg
+|Operating Voltage| – 24V
+|Power Supply Input| – 110V/220V AC, 50/60Hz
+|Power Supply Output – 24V, 14.6A, 350W | LRS-350-24
 
 #user manual
 

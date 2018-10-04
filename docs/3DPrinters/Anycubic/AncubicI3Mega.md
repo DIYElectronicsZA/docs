@@ -7,20 +7,36 @@ The 3.5-inch TFT Touch screen supports multilanguage custom and comes with one c
 
 #Specifications
 
-|Specs|Value
+|Specifications | Anycubic I3 Mega||
 |-|-|
-|Nozzle Diameter| 0.4mm  
-|Nozzle Type| E3D
-|Print area| 210 x 210 x 205 mm
-|Heated-Bed Max Temperature| 110°C
-|Hot-End Max Temperature| 260°C   
-|Print Speed (Stable)| 50mm/s 
-|Print Speed (Max)| 80mm/s 
-|Layer Thickness| 50-350 μm      
-|Filament Diameter| 1.75mm
-|Extruder Style| Bowden 
-|Power Supply| 12V 300W
-|Printer Footprint| 405 x 410 x 453 mm
+|Printing Technology|	– FDM
+|Build Volume|	– 210 x 210 x 205mm
+|Chassis Size (Desk Space Required)|	– 405 x 410 x 453mm
+|Filament Diameter Compatibility|	– 1.75mm
+|Extruder Style|	– Bowden Style
+|Stock Nozzle|	– [0.4mm E3D Nozzle](https://www.diyelectronics.co.za/store/e3d-range/208-4mm-e3d-nozzle-for-175mm-filament.html)
+|Stock Hotend Assembly|	– [E3D V5 Bowden Hotend](https://www.diyelectronics.co.za/store/hotend-assemblies/1225-e3d-v5-bowden-hotend-assembly-for-175mm-filament.html)
+|Maximum Hotend Temperature|	– 260°C
+|Print Platform Style|	– [Anycubic UltraBase](https://www.diyelectronics.co.za/store/beds-heaters/1996-anycubic-ultrabase-220x220mm.html) Microporous-Coated Glass/Aluminium Heated Bed
+|Print Platform Max Temperature|	– 110°C
+|Printing Speed (Stable)|	– 60mm/s
+|Printing Speed (Max)|	– 150mm/s
+|Layer Height (Resolution)|	– 50
+|Motherboard / Primary Controller|	– [Anycubic TriGorilla](https://www.diyelectronics.co.za/store/cnc-controller-boards/1645-tri-gorilla-control-board-anycubic.html) Control Board
+|User Interface|	– 3.5inch Touchscreen
+|Slicing Software Compatibility|	– Cura / Simplify3D / Slic3r / Repetier Host
+|File Format Compatibility|	– STL / OBJ / DAE / AMF
+|File Transfer Method|	– SD Card & USB Slots
+|Bed Levelling System|	– Automatic “Smart Levelling” System
+|Print Resume Functionality|	– Yes
+|Filament Runout Sensor|	– Yes
+|Chassis Materials|	– Solid Black Anodised Aluminium
+|Included Slicing Software|	– Cura 15.04.06
+|Included 3D Printing Filament|	– 1kg Spool of PLA Filament
+|Weight (Printer)|	– 10kg
+|Weight (Package)|	– 16.5kg
+|Power Supply Input|	– 110V/220V AC, 50/60Hz
+|Power Supply Output|	– 12V, 25A, 300W | S-300-12
 
 #User guide
 

@@ -8,8 +8,6 @@ Wanhao printers are a large favourite amongst hobbyist due to it's ease of use a
  
 #3D Printers
 
-![](img/WanhaoI3small.jpg) [Wanhao I3](builddocplus.md) </br>
-![](img/WanI3plusprintersmall.jpg) [Wanhao I3 plus](builddocplus.md) </br>
 ![](img/wani3minismall.jpg) [Wanhao I3 Mini](WanI3mini.md) </br>
 ![](img/Wanhao_D6small.jpg) [Wanhao D6](WanDup6.md) </br>
 ![](img/Wanhao_D6small.jpg) [Wanhao D6 Plus](WanDup6plus.md) </br>
