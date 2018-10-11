@@ -15,9 +15,7 @@ Unique Features
 – Closed PSU & Cable Alignments
 
 
-|||
-|-|-|
-|![](img/WanD7.jpg)| ![](img/D7open.jpg)
+
 
 |Specification| Duplicator 9
 |-|-|
@@ -52,4 +50,4 @@ Unique Features
 
 #user manual
 
-__Currently no Duplicator 9 plus manual available__
+__Currently no Duplicator 9 manual available__
