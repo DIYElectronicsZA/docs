@@ -1,6 +1,6 @@
-||||
-|-|-|-|
-|![Alt](img/TevoTran.png)| ![Alt](img/Tevotranparts.jpg)| ![Alt](img/tevo-tarantula-prusa-i3.jpg)|
+|||
+|-|-|
+|![Alt](img/TevoTran.png)| ![Alt](img/Tevotranparts.jpg)|
 
 The Tevo Tarantula has multiple options for bed size as well as interchagable extruder.
 The Tevo Tarantula design is based on the Prusa i3. The design for this printer is all OpenSource and a part of the RepRap project.
