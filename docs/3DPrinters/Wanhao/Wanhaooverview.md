@@ -11,6 +11,6 @@ Wanhao printers are a large favourite amongst hobbyist due to it's ease of use a
 ![](img/wani3minismall.jpg) [Wanhao I3 Mini](WanI3mini.md) </br>
 ![](img/Wanhao_D6small.jpg) [Wanhao D6](WanDup6.md) </br>
 ![](img/Wanhao_D6small.jpg) [Wanhao D6 Plus](WanDup6plus.md) </br>
-![](img/D7opensmall.jpg) [Wanhao D7](wanD7.md) </br>
+![](img/D7opensmall.jpg) [Wanhao D7](D7_wan.md) </br>
 ![](img/D7opensmall.jpg) [Wanhao D7 plus](wanD7plus.md) </br>
 ![](img/wanhao-duplicator-9small.jpg) [Wanhao D9](WanD9.md) </br>

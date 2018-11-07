@@ -161,17 +161,17 @@
             "title": "User guide"
         }, 
         {
-            "location": "/3DPrinters/Wanhao/wanD7/", 
+            "location": "/3DPrinters/Wanhao/D7_wan/", 
             "text": "About\n\n\nThe D7 is the latest DLP resin printer from Wanhao. The D7 resin printer creates your print by curing resin layer by layer.\nEquipped with an HD LCD screen you can easily control your print.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpecs\n\n\nValue\n\n\n\n\n\n\n\n\n\n\nSystem\n\n\nWindows, Linux, Mac\n\n\n\n\n\n\nPower Supply\n\n\nNA\n\n\n\n\n\n\nPrint Speed\n\n\n30mm/h\n\n\n\n\n\n\nMax. Resolution\n\n\n35micron\n\n\n\n\n\n\nPrinting Software\n\n\nCreation Workshop\n\n\n\n\n\n\nPrint Area\n\n\n120 x 68 x 200 mm\n\n\n\n\n\n\nFile type\n\n\nOBJ, STL\n\n\n\n\n\n\n\n\nuser manual\n\n\nD7 user guide", 
             "title": "Wanhao Duplicator 7"
         }, 
         {
-            "location": "/3DPrinters/Wanhao/wanD7/#about", 
+            "location": "/3DPrinters/Wanhao/D7_wan/#about", 
             "text": "The D7 is the latest DLP resin printer from Wanhao. The D7 resin printer creates your print by curing resin layer by layer.\nEquipped with an HD LCD screen you can easily control your print.                   Specs  Value      System  Windows, Linux, Mac    Power Supply  NA    Print Speed  30mm/h    Max. Resolution  35micron    Printing Software  Creation Workshop    Print Area  120 x 68 x 200 mm    File type  OBJ, STL", 
             "title": "About"
         }, 
         {
-            "location": "/3DPrinters/Wanhao/wanD7/#user-manual", 
+            "location": "/3DPrinters/Wanhao/D7_wan/#user-manual", 
             "text": "D7 user guide", 
             "title": "user manual"
         }, 

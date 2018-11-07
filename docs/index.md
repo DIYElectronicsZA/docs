@@ -47,7 +47,7 @@ or building a rocket to the moon, our aim is to make every step of your creative
     <td class="tg-yw4l" ><a href="3DPrinters/Anycubic/AnyycubicKossDelt">Anycubic Kossel Delta</a></td>
     <td class="tg-yw4l"><a href="3DPrinters/Tevo/lilmon">Tevo Little Monster</a></td>
     <td class="tg-yw4l"><a href="3DPrinters/Creality/Creality10S">Creality CR10S</td>
-    <td class="tg-yw4l"><a href="3DPrinters/Wanhao/WanD7/">Duplicator 7</a>
+    <td class="tg-yw4l"><a href="3DPrinters/Wanhao/WanD7plus/">Duplicator 7</a>
   </tr>
   <tr>
     <td class="tg-yw4l"><a href="3DPrinters/DIYPrinters/DIYoverview">See More >>></a></td>
