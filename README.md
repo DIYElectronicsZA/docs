@@ -5,7 +5,8 @@ Created with mkdocs.
 Written in markdown.
 Compiled to HTML.
 </h3>
-<b>Instructions for setting up wiki on different pc:</b>
+<b>Instructions for setting up wiki on different pc:</b>  
+
 
 1)You will have to install and set up mkdocs.  
 2) The current wiki uses modified themes for mkdocs, so you may want to copy the themes from this wiki to replace.   
@@ -20,7 +21,7 @@ Compiled to HTML.
 8)the index.md file found in the docs folder is the homepage of the wiki.  
 9)Once changes have been made you will have to compile the docs.  
 
-<b>To compile wiki.</b>  
+<b>To compile wiki.</b>   
 
 1)Open a command prompt and change directories to the folder where wiki is stored (same directory as the mkdocs.yml page)  
 2)To view changes locally first, type "mkdocs serve" in the command prompt and navigate to the IP address displayed.  
