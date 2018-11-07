@@ -1,9 +1,10 @@
-DIYElectronics Wiki Documentation
+<h2>DIYElectronics Wiki Documentation</h2>
 
-Created with mkdocs
-Written in markdown
-Compiled to HTML
-
+<h3>
+Created with mkdocs.
+Written in markdown.
+Compiled to HTML.
+</h3>
 <b>Instructions for setting up wiki on different pc:</b>
 
 1)You will have to install and set up mkdocs.  
